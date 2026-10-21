@@ -1,0 +1,485 @@
+{
+ "system": "icd11",
+ "disorders": [
+  {
+   "code": "6D70",
+   "name": "Delirium",
+   "nameZh": "谵妄",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t A disturbance of attention, orientation and awareness developing within a short period of time (e.g. within hours or days), typically presenting as significant confusion or global neurocognitive impairment, with transient symptoms that may fluctuate depending on the underlying causal condition or etiology, is required for diagnosis. •\t The disturbance represents a change from the individual’s baseline functioning. Neurocognitive disorders | Delirium",
+     "zh": "以意识与注意障碍为核心，起病急或亚急（通常数小时至数天），症状在一天内波动，伴有其他认知损害（如记忆、定向、语言、知觉障碍），常由躯体疾病、精神活性物质（含药物）或多种病因共同引起，代表个体较既往基线水平的急性下降，需医疗紧急评估。"
+    }
+   ]
+  },
+  {
+   "code": "6D70.0",
+   "name": "Delirium due to disease classified elsewhere",
+   "nameZh": "其他疾病所致谵妄",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for delirium are met. •\t There is evidence from the history, physical examination or laboratory findings that the neurocognitive disturbance is caused by the direct physiological consequences of a medical condition. This judgement depends on establishing the following. •\t The medical condition is known to be capable of producing delirium. •\t The course of the delirium (e.g. onset, trajectory of symptoms, response to treatment) is consistent with causation by the medical condition. Note: when delirium is due to a disease or condition classified elsewhere, the diagnostic code corresponding to that disease or condition should be assigned along with delirium due to disease classified elsewhere. If the delirium is attributed to multiple medical conditions or to a medical condition and a substance or medication, the category 6D70.2 Delirium due to multiple etiological factors should be used instead. This may include medications being used to manage the medical condition. Neurocognitive disorders | Delirium",
+     "zh": "满足谵妄的全部诊断要求，并有证据表明谵妄是其他分类疾病（如感染、代谢紊乱、神经系统疾病）直接生理后果所致。"
+    }
+   ]
+  },
+  {
+   "code": "6D70.1",
+   "name": "Delirium due to psychoactive substances, including medications",
+   "nameZh": "精神活性物质（含药物）所致谵妄",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for delirium are met. •\t There is evidence from history, physical examination or laboratory findings that the neurocognitive disturbance is caused by the direct physiological consequences of use of a substance or medication. This judgement depends on establishing the following. •\t The substance and the amount and duration of its use or withdrawal from the substance is known to be capable of producing delirium. •\t The course of the delirium (e.g. onset, trajectory of symptoms, eventual remission with elimination of the substance from the body) is consistent with causation by the substance. •\t The duration or severity of the symptoms is substantially in excess of the characteristic syndrome of substance intoxication or substance withdrawal due to the specified substance. Note: each specific substance that has been identified as contributing to the delirium should be classified using the appropriate substance-specific category. If one or more of the categories appearing below is diagnosed, a separate diagnosis of delirium due to psychoactive substances, including medications, should not be assigned. 6C40.5 Alcohol-induced delirium (see Table 6.16, p. 484, for a description of delirium associated with alcohol withdrawal) 6C41.5 Cannabis-induced delirium 6C42.5 Synthetic cannabinoid-induced delirium 6C43.5 Opioid-induced delirium 6C44.5 Sedative, hypnotic or anxiolytic-induced delirium (see Table 6.16, p. 484, for a description of delirium associated with sedative, hypnotic or anxiolytic withdrawal) Neurocognitive disorders | Delirium",
+     "zh": "满足谵妄的全部诊断要求，并有证据表明谵妄是精神活性物质或药物使用（含中毒、戒断或用药）直接生理后果所致。"
+    }
+   ]
+  },
+  {
+   "code": "6D70.2",
+   "name": "Delirium due to multiple etiological factors",
+   "nameZh": "多种病因所致谵妄",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for delirium are met. •\t There is evidence from the history, physical examination or laboratory findings that the delirium is caused by either: •\t the direct physiological consequences of multiple diseases classified elsewhere; or •\t one or more diseases classified elsewhere and the direct effects of a substance or medication on the central nervous system. •\t This judgement depends on establishing the following. •\t The medical conditions are known to be capable of producing delirium. •\t If applicable, the amount and duration of use of the substance or withdrawal from the substance is known to be capable of producing delirium. •\t If applicable, the duration or severity of the symptoms is substantially in excess of the characteristic syndrome of substance intoxication or substance withdrawal due to the specified substance. •\t The course of the delirium (e.g. onset, trajectory of symptoms, eventual remission with elimination of the substance from the body) is consistent with causation by the medical conditions and, if applicable, the substance. Note: when delirium is related to one or more diseases or conditions classified elsewhere, the diagnostic code corresponding to those diseases or conditions should be assigned along with delirium due to multiple etiological factors. Neurocognitive disorders | Delirium",
+     "zh": "满足谵妄的全部诊断要求，并判断谵妄由多种病因（如躯体疾病合并物质使用）共同引起。"
+    }
+   ]
+  },
+  {
+   "code": "6D70.Y",
+   "name": "Delirium, other specified cause",
+   "nameZh": "谵妄，其他特定病因",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for delirium are met. •\t The delirium is presumed to be attributable to an identified cause that is not adequately captured by any of the other available delirium categories. •\t This judgement depends on establishing the following: •\t The specified cause is known to be capable of producing delirium. •\t The course of the delirium (e.g. onset, trajectory of symptoms, response to treatment) is consistent with the specified cause. Note: the ICD-11 diagnosis corresponding to the presumed etiology should also be assigned. Delirium, unknown or unspecified cause Mild neurocognitive disorder Essential (required) features •\t The presence of mild impairment in one more or cognitive domains (e.g. attention, executive function, language, memory, perceptual-motor abilities, social cognition) relative to expectations for age and general premorbid level of neurocognitive functioning is required for diagnosis. •\t Impairment represents a decline from the individual’s previous level of functioning. •\t Neurocognitive impairment is not severe enough to interfere significantly with an individual’s ability to perform activities related to personal, family, social, educational and/ or occupational functioning or other important functional areas. •\t Evidence of mild neurocognitive impairment is based on: •\t information obtained from the individual, an informant or clinical observation; •\t objective evidence of impairment as demonstrated by standardized neuropsychological/ cognitive testing or, in its absence, another quantified clinical assessment. •\t Neurocognitive impairment is not attributable to normal ageing. •\t Neurocognitive impairment may be attributable to an underlying acquired disease of the nervous system, a trauma, an infection or other disease process affecting the brain, use of specific substances or medications, nutritional deficiency or exposure to toxins, or the etiology may be undetermined. Neurocognitive disorders | Mild neurocognitive disorder",
+     "zh": "满足谵妄的全部诊断要求，且病因已明确但非上述所列病因。"
+    }
+   ]
+  },
+  {
+   "code": "6D70.Z",
+   "name": "Delirium, unknown or unspecified cause",
+   "nameZh": "谵妄，未知或未特定病因",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t The presence of mild impairment in one more or cognitive domains (e.g. attention, executive function, language, memory, perceptual-motor abilities, social cognition) relative to expectations for age and general premorbid level of neurocognitive functioning is required for diagnosis. •\t Impairment represents a decline from the individual’s previous level of functioning. •\t Neurocognitive impairment is not severe enough to interfere significantly with an individual’s ability to perform activities related to personal, family, social, educational and/ or occupational functioning or other important functional areas. •\t Evidence of mild neurocognitive impairment is based on: •\t information obtained from the individual, an informant or clinical observation; •\t objective evidence of impairment as demonstrated by standardized neuropsychological/ cognitive testing or, in its absence, another quantified clinical assessment. •\t Neurocognitive impairment is not attributable to normal ageing. •\t Neurocognitive impairment may be attributable to an underlying acquired disease of the nervous system, a trauma, an infection or other disease process affecting the brain, use of specific substances or medications, nutritional deficiency or exposure to toxins, or the etiology may be undetermined. Neurocognitive disorders | Mild neurocognitive disorder",
+     "zh": "满足谵妄的全部诊断要求，但病因未知或未特定。"
+    }
+   ]
+  },
+  {
+   "code": "6D72",
+   "name": "Amnestic disorder",
+   "nameZh": "遗忘障碍",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t Prominent memory impairment relative to expectations for age and general level of premorbid neurocognitive functioning, in the absence of other significant neurocognitive impairment, is required for diagnosis. •\t The memory impairment represents a marked decline from previous levels of functioning. •\t The memory impairment is characterized by reduced ability to acquire, learn and/or retain new information. •\t Evidence of memory impairment is based on: •\t information obtained from the individual, an informant or clinical observation; •\t substantial impairment in memory performance as demonstrated by standardized neuropsychological/cognitive testing or, in its absence, another quantified clinical assessment. •\t The symptoms are not better accounted for by disturbance of consciousness, altered mental status, transient global amnesia (i.e. memory impairment lasting no more than 48 hours, with most cases resolving within 6 hours), delirium, dementia, substance intoxication, substance withdrawal or another mental disorder (e.g. schizophrenia or another primary psychotic disorder, a mood disorder, post-traumatic stress disorder, a dissociative disorder). •\t The symptoms result in significant impairment in personal, family, social, educational, occupational or other important areas of functioning. In mild cases, if functioning is maintained, it is only through significant additional effort (e.g. compensatory strategies). Neurocognitive disorders | Amnestic disorder",
+     "zh": "以记忆功能显著损害为核心（表现为学习新信息或回忆既往信息的能力受损），超出年龄与病前水平预期，且不能用谵妄、痴呆等其他神经认知障碍更好地解释。可由其他疾病、精神活性物质或多种病因引起。"
+    }
+   ]
+  },
+  {
+   "code": "6D72.0",
+   "name": "Amnestic disorder due to diseases classified elsewhere",
+   "nameZh": "其他疾病所致遗忘障碍",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for amnestic disorder are met. •\t There is evidence from history, physical examination or laboratory findings that symptoms are caused by the direct physiological consequences of a medical condition (e.g. a disease of the nervous system, a traumatic brain injury, an infection, a tumour, another disease process affecting areas of the brain involved in memory). This judgement depends on establishing the following. •\t The medical condition is known to be capable of producing memory impairment. •\t The course of the memory impairment (e.g. onset, trajectory of symptoms, response to treatment) is consistent with causation by the medical condition. Note: when amnestic disorder is due to a disease, condition or injury classified elsewhere (including disorders due to substance use), the diagnostic code corresponding to that disease, condition or injury should assigned along with amnestic disorder. When the etiological condition is unknown, the diagnosis 8A2Z Disorders with neurocognitive impairment as a major feature, unspecified, may be assigned in addition to amnestic disorder. Potentially explanatory medical conditions (examples) •\t Anaemias or other erythrocyte disorders •\t Certain infectious or parasitic diseases (e.g. meningitis) •\t Diseases of the nervous system (e.g. cerebral ischaemic stroke, cerebral palsy, epilepsy or seizures, hypoxic-ischaemic encephalopathy) Neurocognitive disorders | Amnestic disorder",
+     "zh": "满足遗忘障碍的全部诊断要求，并有证据表明遗忘是其他分类疾病（如卒中、脑外伤、单纯疱疹脑炎）直接生理后果所致。"
+    }
+   ]
+  },
+  {
+   "code": "6D72.1",
+   "name": "Amnestic disorder due to psychoactive substances, including medications",
+   "nameZh": "精神活性物质（含药物）所致遗忘障碍",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for amnestic disorder are met. •\t There is evidence from history, physical examination or laboratory findings that the disturbance is caused by the direct physiological consequences of use of a substance or medication that persists beyond the usual duration of substance intoxication or substance withdrawal. This judgement depends on establishing the following. •\t The substance or medication and the amount and duration of its use is known to be capable of producing the memory disturbance. •\t The course of the memory disturbance (e.g. onset, trajectory of symptoms, response to treatment) is consistent with causation by the substance or medication. Note: if the specific substance inducing the amnestic disorder has been identified, it should be classified using the appropriate subcategory: Amnestic disorder due to use of alcohol Amnestic disorder due to use of sedatives, hypnotics or anxiolytics Amnestic disorder due to other specific psychoactive substances, including medications Amnestic disorder due to use of volatile inhalants. A diagnosis corresponding to the pattern of use of the relevant psychoactive substance (e.g. episode of harmful psychoactive substance use, harmful pattern of psychoactive substance use, substance dependence) may also be assigned. Note: the order of the categories under 6D72.1 Amnestic disorder due to psychoactive substances, including medications, is different from that of other parallel entities (e.g. substance-induced dementia, below), in which the “other specified” category is listed last. This difference is not meaningful; the categories should be used in the same way. Amnestic disorder, other specified cause Essential (required) features •\t All diagnostic requirements for amnestic disorder are met. •\t The amnestic disorder is presumed to be attributable to an identified cause that is not adequately captured by any of the other available amnestic disorder categories. Neurocognitive disorders | Amnestic disorder",
+     "zh": "满足遗忘障碍的全部诊断要求，并有证据表明遗忘是精神活性物质或药物使用（含中毒、戒断）直接生理后果所致。"
+    }
+   ]
+  },
+  {
+   "code": "6D72.Y",
+   "name": "Amnestic disorder, other specified cause",
+   "nameZh": "遗忘障碍，其他特定病因",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for amnestic disorder are met. •\t The amnestic disorder is presumed to be attributable to an identified cause that is not adequately captured by any of the other available amnestic disorder categories. Neurocognitive disorders | Amnestic disorder",
+     "zh": "满足遗忘障碍的全部诊断要求，且病因已明确但非上述所列病因。"
+    }
+   ]
+  },
+  {
+   "code": "DEMENTIA",
+   "name": "General diagnostic requirements for dementia",
+   "nameZh": "痴呆（一般诊断要求）",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t Marked impairment in two or more cognitive domains relative to the level expected given the individual’s age and general premorbid level of neurocognitive functioning, which represents a decline from the individual’s previous level of functioning, is required for diagnosis. •\t Memory impairment is present in most forms of dementia, but neurocognitive impairment is not restricted to memory and may be present in other cognitive domains such as executive functioning, attention, language, social cognition and judgement, psychomotor speed, and visuoperceptual or visuospatial functioning. •\t Evidence of neurocognitive impairment is based on: •\t information obtained from the individual, an informant or clinical observation; •\t substantial impairment in neurocognitive performance as demonstrated by standardized neuropsychological/cognitive testing or, in its absence, another quantified clinical assessment. •\t Behavioural changes (e.g. changes in personality, disinhibition, agitation, irritability) may also be present and, in some forms of dementia, may be the presenting symptom. Neurocognitive disorders | Dementia",
+     "zh": "以多个认知领域（记忆、学习、执行功能、注意、语言、社会认知、知觉运动能力）较既往水平显著下降为核心，严重影响日常生活独立性，且不能单独用谵妄或原发性精神障碍更好地解释。"
+    }
+   ]
+  },
+  {
+   "code": "6D80",
+   "name": "Dementia due to Alzheimer disease",
+   "nameZh": "阿尔茨海默病痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to underlying 8A20 Alzheimer disease, based on quantified clinical assessment or standardized neuropsychological/cognitive testing, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. Neurocognitive disorders | Dementia",
+     "zh": "满足痴呆的全部诊断要求，并有证据（神经心理测验、神经影像、遗传检测等）表明痴呆归因于阿尔茨海默病。"
+    }
+   ]
+  },
+  {
+   "code": "6D80.0",
+   "name": "Dementia due to Alzheimer disease with early onset",
+   "nameZh": "阿尔茨海默病痴呆（早发型）",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia due to Alzheimer disease are met. •\t Neurocognitive, functional and/or behavioural symptoms associated with Alzheimer disease were present prior to the age of 65 years, as evidenced by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. Dementia due to Alzheimer disease with late onset Essential (required) features •\t All diagnostic requirements for dementia due to Alzheimer disease are met. •\t Neurocognitive, functional and/or behavioural symptoms associated with Alzheimer disease were present at or after the age of 65 years, as evidenced by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. Neurocognitive disorders | Dementia due to Alzheimer disease",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于阿尔茨海默病，且起病于65岁以前。"
+    }
+   ]
+  },
+  {
+   "code": "6D80.1",
+   "name": "Dementia due to Alzheimer disease with late onset",
+   "nameZh": "阿尔茨海默病痴呆（晚发型）",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia due to Alzheimer disease are met. •\t Neurocognitive, functional and/or behavioural symptoms associated with Alzheimer disease were present at or after the age of 65 years, as evidenced by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. Neurocognitive disorders | Dementia due to Alzheimer disease",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于阿尔茨海默病，且起病于65岁以后。"
+    }
+   ]
+  },
+  {
+   "code": "6D80.2",
+   "name": "Dementia due to Alzheimer disease, onset unknown or unspecified",
+   "nameZh": "阿尔茨海默病痴呆（起病未知）",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia due to Alzheimer disease are met. •\t Neurocognitive, functional and/or behavioural symptoms of dementia appear to be partially related to co-existing cerebrovascular disease, as demonstrated by neuroimaging, medical tests and/or clinical history of cerebrovascular disease. •\t The clinical course of neurocognitive and functional impairment is progressive, and typically characterized by combined impairment in so-called cortical cognitive functions (e.g. memory, language, visuospatial skills) and so-called subcortical cognitive functions (e.g. attention, processing speed, executive/frontal lobe-related functioning). Alzheimer disease dementia, mixed type, with other nonvascular etiologies Essential (required) features •\t All diagnostic requirements for dementia due to Alzheimer disease are met. •\t Neurocognitive, functional and/or behavioural symptoms of dementia appear to be partially related to a known comorbid etiology, as demonstrated by neuroimaging data, genetic testing, medical tests, family history, medical history and/or clinical history. Dementia due to Alzheimer disease, onset unknown or unspecified Dementia due to cerebrovascular disease Essential (required) features •\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to underlying cerebrovascular disease, as demonstrated by neuroimaging, medical tests and/or clinical history of cerebrovascular disease. •\t The diagnostic requirements for Alzheimer disease dementia, mixed type, with cerebrovascular disease are not met. Neurocognitive disorders | Dementia due to Alzheimer disease",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于阿尔茨海默病，但起病年龄未知或未特定。"
+    }
+   ]
+  },
+  {
+   "code": "6D80.3",
+   "name": "Alzheimer disease dementia, mixed type, with cerebrovascular disease",
+   "nameZh": "阿尔茨海默病痴呆（混合型，伴脑血管病）",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia due to Alzheimer disease are met. •\t Neurocognitive, functional and/or behavioural symptoms of dementia appear to be partially related to a known comorbid etiology, as demonstrated by neuroimaging data, genetic testing, medical tests, family history, medical history and/or clinical history. Dementia due to Alzheimer disease, onset unknown or unspecified Dementia due to cerebrovascular disease Essential (required) features •\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to underlying cerebrovascular disease, as demonstrated by neuroimaging, medical tests and/or clinical history of cerebrovascular disease. •\t The diagnostic requirements for Alzheimer disease dementia, mixed type, with cerebrovascular disease are not met. Neurocognitive disorders | Dementia due to Alzheimer disease",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆由阿尔茨海默病与脑血管病共同所致。"
+    }
+   ]
+  },
+  {
+   "code": "6D81",
+   "name": "Dementia due to cerebrovascular disease",
+   "nameZh": "脑血管病所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to underlying cerebrovascular disease, as demonstrated by neuroimaging, medical tests and/or clinical history of cerebrovascular disease. •\t The diagnostic requirements for Alzheimer disease dementia, mixed type, with cerebrovascular disease are not met. Neurocognitive disorders | Dementia due to Alzheimer disease",
+     "zh": "满足痴呆的全部诊断要求，并有证据（临床史、神经影像等）表明痴呆归因于脑血管病（如卒中、多发梗死、白质病变）。"
+    }
+   ]
+  },
+  {
+   "code": "6D82",
+   "name": "Dementia due to Lewy body disease",
+   "nameZh": "路易体痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to underlying Lewy body disease, as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. •\t Clinical history involves the presence of two or more of the following symptoms: •\t recurrent visual hallucinations (typically well-formed) •\t episodic confusion •\t REM sleep behaviour disorder •\t one or more features of parkinsonism (e.g. resting tremor).",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于路易体病；常伴波动性认知、反复视幻觉、帕金森样运动症状及快速眼动睡眠行为障碍。"
+    }
+   ]
+  },
+  {
+   "code": "6D83",
+   "name": "Frontotemporal dementia",
+   "nameZh": "额颞叶痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to underlying frontotemporal disease or atrophy, as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history.",
+     "zh": "满足痴呆的全部诊断要求，并有证据（神经心理测验、神经影像、遗传检测等）表明痴呆归因于额颞叶变性或萎缩。变异型包括原发性进行性失语、行为变异型及运动变异型。"
+    }
+   ]
+  },
+  {
+   "code": "6D84",
+   "name": "Dementia due to psychoactive substances, including medications",
+   "nameZh": "精神活性物质（含药物）所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t There is evidence from history, physical examination or laboratory findings that dementia is caused by the direct physiological consequences of use of a substance or medication that persists beyond the usual duration of substance intoxication or withdrawal. •\t This judgement depends on establishing the following. •\t The substance or medication and the amount and duration of its use is known to be capable of producing dementia. •\t The course of the dementia (e.g. onset, trajectory of symptoms, response to treatment) is consistent with that caused by the substance or medication. Note: specific substances are known to be capable of producing dementia. If the specific substance inducing the dementia has been identified, the corresponding diagnostic category should be assigned: 6D84.0 Dementia due to use of alcohol 6D84.1 Dementia due to use of sedatives, hypnotic or anxiolytics 6D84.2 Dementia due to use of volatile inhalants 6D84.Y Dementia due to other specified psychoactive substance. A diagnosis corresponding to the pattern of use of the relevant psychoactive substance (e.g. harmful pattern of psychoactive substance use, substance dependence) may also be assigned. Dementia due to diseases classified elsewhere The following categories for dementia associated with other diseases or conditions known to cause dementia are available: Dementia due to Parkinson disease Dementia due to Huntington disease Dementia due to exposure to heavy metals and other toxins Dementia due to HIV Dementia due to multiple sclerosis Dementia due to prion disease Dementia due to normal-pressure hydrocephalus Dementia due to injury to the head Dementia due to Pellagra Dementia due to Down syndrome Dementia due to other specified disease classified elsewhere. Neurocognitive disorders | Dementia due to psychoactive substances, including medications",
+     "zh": "满足痴呆的全部诊断要求，并有证据（病史、体格检查或实验室检查）表明痴呆由物质或药物的直接生理作用所致，且持续超出通常的中毒或戒断时间。"
+    }
+   ]
+  },
+  {
+   "code": "6D85.0",
+   "name": "Dementia due to Parkinson disease",
+   "nameZh": "帕金森病所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to underlying Parkinson disease, as demonstrated by neuropsychological test data, neuroimaging data, medical tests, family history and/or clinical history.",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于帕金森病。"
+    }
+   ]
+  },
+  {
+   "code": "6D85.1",
+   "name": "Dementia due to Huntington disease",
+   "nameZh": "亨廷顿病所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to underlying Huntington disease, as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history.",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于亨廷顿病。"
+    }
+   ]
+  },
+  {
+   "code": "6D85.2",
+   "name": "Dementia due to exposure to heavy metals and other toxins",
+   "nameZh": "重金属及其他毒素暴露所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to toxic exposure to specific heavy metals, such as aluminium from dialysis water, lead, mercury or manganese, as demonstrated by neuropsychological test data, neuroimaging data, medical tests and/or clinical history.",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于重金属或其他毒素暴露。"
+    }
+   ]
+  },
+  {
+   "code": "6D85.3",
+   "name": "Dementia due to HIV",
+   "nameZh": "HIV所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to underlying HIV disease, as demonstrated by neuropsychological test data, neuroimaging data, medical tests and/or clinical history. Neurocognitive disorders | Dementia due to diseases classified elsewhere",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于人类免疫缺陷病毒（HIV）感染。"
+    }
+   ]
+  },
+  {
+   "code": "6D85.4",
+   "name": "Dementia due to multiple sclerosis",
+   "nameZh": "多发性硬化所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to the cerebral effects of underlying multiple sclerosis – a demyelinating disease – as demonstrated by neuropsychological test data, neuroimaging data, medical tests and/or clinical history. Cognitive symptoms are not primarily due to associated physiological or functional effects of the underlying disease (e.g. fatigue, motoric limitations).",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于多发性硬化。"
+    }
+   ]
+  },
+  {
+   "code": "6D85.5",
+   "name": "Dementia due to prion disease",
+   "nameZh": "朊蛋白病所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to underlying human prion disease, as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests and/or clinical history.",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于朊蛋白病（如克雅氏病）。"
+    }
+   ]
+  },
+  {
+   "code": "6D85.6",
+   "name": "Dementia due to normal-pressure hydrocephalus",
+   "nameZh": "正常压力脑积水所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to underlying normal-pressure hydrocephalus, as demonstrated by neuropsychological test data, neuroimaging data, medical tests and/ or clinical history. Neurocognitive disorders | Dementia due to diseases classified elsewhere",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于正常压力脑积水。"
+    }
+   ]
+  },
+  {
+   "code": "6D85.7",
+   "name": "Dementia due to injury to the head",
+   "nameZh": "头部损伤所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to an injury to the head, as demonstrated by neuropsychological test data, neuroimaging data, medical tests and/or clinical history.",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于头部损伤。"
+    }
+   ]
+  },
+  {
+   "code": "6D85.8",
+   "name": "Dementia due to pellagra",
+   "nameZh": "糙皮病所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to pellagra, as demonstrated by neuropsychological test data, medical tests and/or clinical history.",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于糙皮病（烟酸缺乏）。"
+    }
+   ]
+  },
+  {
+   "code": "6D85.9",
+   "name": "Dementia due to Down syndrome",
+   "nameZh": "唐氏综合征所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t Dementia is presumed to be attributable to Down syndrome, as demonstrated by neuropsychological test data, genetic testing, medical tests and/or clinical history.",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于唐氏综合征。"
+    }
+   ]
+  },
+  {
+   "code": "6D85.Y",
+   "name": "Dementia due to other specified disease classified elsewhere",
+   "nameZh": "其他特定疾病所致痴呆",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t The dementia is presumed to be attributable to an underlying disease of the nervous system, trauma, infection, tumour or other disease process affecting specific areas of the brain that is listed in ICD-11 but is not adequately captured by any of the other available dementia categories, as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. •\t This judgement depends on establishing the following. •\t The specified cause is known to be capable of producing the symptoms. •\t The course of the impairment (e.g. onset, trajectory of symptoms, response to treatment) is consistent with that known to be associated with the specified cause. Note: the ICD-11 diagnosis corresponding to the presumed etiology should also be assigned. Dementia, other specified cause Essential (required) features •\t All diagnostic requirements for dementia are met. •\t The dementia is presumed to be attributable to an identified and specified underlying cause affecting specific areas of the brain that is not listed elsewhere in ICD-11 (and is therefore not classifiable using any of the other available dementia categories, including dementia due to other specified disease classified elsewhere), as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. •\t This judgement depends on establishing the following. •\t The specified cause is known to be capable of producing the symptoms. •\t The course of the impairment (e.g. onset, trajectory of symptoms, response to treatment) is consistent with that known to be associated with the specified cause. Neurocognitive disorders | Dementia due to diseases classified elsewhere",
+     "zh": "满足痴呆的全部诊断要求，并有证据表明痴呆归因于其他特定分类疾病。"
+    }
+   ]
+  },
+  {
+   "code": "6D8Y",
+   "name": "Dementia, other specified cause",
+   "nameZh": "痴呆，其他特定病因",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t All diagnostic requirements for dementia are met. •\t The dementia is presumed to be attributable to an identified and specified underlying cause affecting specific areas of the brain that is not listed elsewhere in ICD-11 (and is therefore not classifiable using any of the other available dementia categories, including dementia due to other specified disease classified elsewhere), as demonstrated by neuropsychological test data, neuroimaging data, genetic testing, medical tests, family history and/or clinical history. •\t This judgement depends on establishing the following. •\t The specified cause is known to be capable of producing the symptoms. •\t The course of the impairment (e.g. onset, trajectory of symptoms, response to treatment) is consistent with that known to be associated with the specified cause. Neurocognitive disorders | Dementia due to diseases classified elsewhere",
+     "zh": "满足痴呆的全部诊断要求，且病因已明确但非上述所列病因。"
+    }
+   ]
+  }
+ ]
+}

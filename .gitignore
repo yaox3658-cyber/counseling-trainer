@@ -1,0 +1,17 @@
+# 依赖
+node_modules/
+
+# 构建产物（安装包 / 解包目录）
+dist/
+*.exe
+*.blockmap
+builder-debug.yml
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db
+
+# 编辑器 / IDE
+.vscode/
+.idea/

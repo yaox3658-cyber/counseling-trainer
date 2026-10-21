@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>心理咨询能力训练 · 来访者模拟</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============ 顶栏 ============ -->
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-logo">🧠</span>
+      <div class="brand-text">
+        <h1>心理咨询能力训练</h1>
+        <p>基于 Corey《心理咨询与治疗的理论及实践》第 10 版</p>
+      </div>
+    </div>
+
+    <nav class="tabs">
+      <button class="tab active" data-view="train">🎯 训练</button>
+      <button class="tab" data-view="progress">📊 我的进度</button>
+      <button class="tab" data-view="learn">📚 学习资料</button>
+      <button class="tab" data-view="workflow">🛤️ 全流程咨询</button>
+      <button class="tab" data-view="qa">🔎 蒸馏问答</button>
+      <button class="tab" data-view="talk">💗 谈心</button>
+      <button class="tab" data-view="diagnosis">🩺 诊断训练</button>
+    </nav>
+
+    <div class="top-controls">
+      <label class="ctrl">
+        <span>训练重点</span>
+        <select id="modeSelect">
+          <option value="micro">通用微技巧</option>
+          <option value="core">核心三大流派</option>
+          <option value="full">全书流派覆盖</option>
+        </select>
+      </label>
+      <button id="settingsBtn" class="icon-btn" title="设置">⚙️</button>
+      <span id="llmBadge" class="llm-badge" title="大模型状态">离线</span>
+    </div>
+  </header>
+
+  <!-- ============ 视图：训练 ============ -->
+  <main id="view-train" class="view active">
+    <aside class="panel left-panel">
+      <section class="panel-block">
+        <h2>📋 来访者档案</h2>
+        <div id="clientProfile"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>🗂️ 选择案例</h2>
+        <div id="caseList" class="case-list"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>🧭 本轮引导</h2>
+        <div id="turnGuide" class="turn-guide"></div>
+      </section>
+
+      <section class="panel-block session-progress">
+        <h2>📈 本次会话</h2>
+        <div id="sessionProgress"></div>
+      </section>
+    </aside>
+
+    <section class="panel center-panel">
+      <div id="caseIntro" class="case-intro"></div>
+
+      <div class="avatar-stage">
+        <div id="avatarWrap" class="avatar-wrap">
+          <svg id="avatar" viewBox="0 0 320 340" xmlns="http://www.w3.org/2000/svg">
+            <g id="figure">
+            <!-- 身体 -->
+            <g id="body">
+              <path id="torso" d="M60 340 C58 300 90 286 160 286 C230 286 262 300 260 340 Z" fill="#3f7d7a" />
+              <circle id="neck" cx="160" cy="272" r="24" fill="#e8b48c" />
+            </g>
+            <!-- 头 -->
+            <g id="headGroup">
+              <ellipse id="head" cx="160" cy="150" rx="86" ry="98" fill="#f0c096" />
+              <path id="hair" d="M74 140 C70 60 130 34 160 34 C190 34 250 60 246 140 C246 150 210 118 160 118 C110 118 74 150 74 140 Z" fill="#4a3b33" />
+              <path id="earL" d="M74 158 C60 158 56 172 66 180 C72 184 76 176 76 168 Z" fill="#f0c096" />
+              <path id="earR" d="M246 158 C260 158 264 172 254 180 C248 184 244 176 244 168 Z" fill="#f0c096" />
+            </g>
+            <!-- 眉 -->
+            <g id="brows">
+              <path id="browL" d="M112 118 Q128 108 148 116" stroke="#4a3b33" stroke-width="7" stroke-linecap="round" fill="none" />
+              <path id="browR" d="M172 116 Q192 108 208 118" stroke="#4a3b33" stroke-width="7" stroke-linecap="round" fill="none" />
+            </g>
+            <!-- 眼 -->
+            <g id="eyes">
+              <g id="eyeL">
+                <ellipse cx="128" cy="148" rx="16" ry="20" fill="#fff" />
+                <circle id="pupilL" cx="130" cy="150" r="7.5" fill="#3a2e28" />
+                <circle cx="127" cy="147" r="2.4" fill="#fff" />
+              </g>
+              <g id="eyeR">
+                <ellipse cx="192" cy="148" rx="16" ry="20" fill="#fff" />
+                <circle id="pupilR" cx="190" cy="150" r="7.5" fill="#3a2e28" />
+                <circle cx="187" cy="147" r="2.4" fill="#fff" />
+              </g>
+            </g>
+            <!-- 鼻 -->
+            <path id="nose" d="M158 158 Q156 176 152 184 Q166 190 168 184 Q164 176 162 158 Z" fill="#e3a87b" />
+            <!-- 嘴 -->
+            <path id="mouth" d="M136 222 Q160 214 184 222" stroke="#7a4a3a" stroke-width="6" stroke-linecap="round" fill="none" />
+            <!-- 泪 / 汗 / 腮红 -->
+            <path id="tearL" d="M120 178 q-4 14 0 20 q4 -6 0 -20" fill="#7fc3e8" opacity="0" />
+            <path id="tearR" d="M200 178 q-4 14 0 20 q4 -6 0 -20" fill="#7fc3e8" opacity="0" />
+            <path id="sweat" d="M248 110 q-6 16 0 24 q6 -8 0 -24" fill="#7fc3e8" opacity="0" />
+            <ellipse id="blushL" cx="116" cy="186" rx="14" ry="7" fill="#f09a8a" opacity="0" />
+            <ellipse id="blushR" cx="204" cy="186" rx="14" ry="7" fill="#f09a8a" opacity="0" />
+            </g>
+          </svg>
+        </div>
+        <div id="emotionTag" class="emotion-tag">平静</div>
+      </div>
+
+      <div id="speechBubble" class="speech-bubble">
+        <div id="clientText" class="client-text"></div>
+        <div id="typingCaret" class="caret">▍</div>
+      </div>
+
+      <div id="transcript" class="transcript"></div>
+
+      <div id="responseArea" class="response-area">
+        <div id="modeSwitch" class="mode-switch">
+          <button id="modeFreeBtn" class="mode-btn active">⌨️ 自由输入</button>
+          <button id="modeChoiceBtn" class="mode-btn">🎯 4 选 1</button>
+          <span class="hint" id="modeHint">提示：先共情，再用开放式提问引导展开</span>
+        </div>
+        <div id="optionPanel" class="option-panel" hidden></div>
+        <div id="inputPanel" class="input-panel">
+          <textarea id="responseInput" rows="3" placeholder="输入你对来访者的回应，然后点击「发送反馈」……"></textarea>
+          <div class="input-bar">
+            <span class="hint" id="inputHint">Ctrl + Enter 快速发送</span>
+            <button id="submitBtn" class="btn primary">发送反馈 ➤</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="panel right-panel">
+      <section class="panel-block score-block">
+        <h2>本轮评分</h2>
+        <div id="scorePanel" class="score-panel">
+          <div class="score-ring-wrap">
+            <svg class="score-ring" viewBox="0 0 120 120">
+              <circle class="ring-bg" cx="60" cy="60" r="52"></circle>
+              <circle id="scoreRingArc" class="ring-fg" cx="60" cy="60" r="52"></circle>
+            </svg>
+            <div class="score-num"><span id="scoreValue">—</span></div>
+          </div>
+          <div id="scoreLevel" class="score-level">等待你的回应…</div>
+        </div>
+      </section>
+
+      <section class="panel-block">
+        <h2>✅ 有效技巧</h2>
+        <div id="skillsFound" class="chips"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>⚠️ 待改进</h2>
+        <div id="errorsFound" class="chips"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>💬 深度点评</h2>
+        <div id="feedbackText" class="feedback-text"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>🎓 参考答案</h2>
+        <div id="modelAnswer" class="model-answer"></div>
+        <div id="altAnswers" class="alt-answers" hidden></div>
+        <button id="moreAnswersBtn" class="btn ghost block" hidden>🤖 大模型生成更多参考答案</button>
+      </section>
+
+      <section class="panel-block">
+        <h2>📖 教材引用</h2>
+        <div id="bookRef" class="book-ref"></div>
+      </section>
+
+      <section class="panel-block ask-block">
+        <h2>❓ 询问参考答案</h2>
+        <p class="ask-intro">不理解参考答案为什么这样写？在这里提问，离线解答库会先拆解给你看。</p>
+        <textarea id="askInput" rows="2" placeholder="例如：参考答案为什么要先共情？为什么不直接给建议？用了什么技巧？"></textarea>
+        <div class="ask-bar">
+          <button id="askBtn" class="btn ghost">💡 离线解答</button>
+          <button id="askLlmBtn" class="btn ghost" hidden>🤖 深度解答（大模型）</button>
+        </div>
+        <div id="askResult" class="ask-result"></div>
+      </section>
+
+      <button id="nextBtn" class="btn primary block" hidden>下一轮 →</button>
+    </aside>
+  </main>
+
+  <!-- ============ 视图：进度 ============ -->
+  <main id="view-progress" class="view">
+    <div class="dashboard">
+      <section class="panel dash-stats">
+        <div class="stat"><span id="statTurns">0</span><label>练习轮次</label></div>
+        <div class="stat"><span id="statAvg">—</span><label>平均分</label></div>
+        <div class="stat"><span id="statCases">0</span><label>完成案例</label></div>
+        <div class="stat"><span id="statStreak">0</span><label>连续天数</label></div>
+      </section>
+      <section class="panel dash-radar">
+        <h2>🕸️ 微技巧掌握雷达</h2>
+        <div id="radarBox" class="radar-box"></div>
+      </section>
+      <section class="panel dash-history">
+        <h2>🕓 历史记录</h2>
+        <div id="historyList" class="history-list"></div>
+      </section>
+      <section class="panel dash-review">
+        <h2>🔁 错题回顾</h2>
+        <div id="reviewList" class="review-list"></div>
+      </section>
+      <section class="panel dash-growth">
+        <h2>📈 成长曲线</h2>
+        <div class="growth-controls">
+          <label>观察指标</label>
+          <select id="growthMetric">
+            <option value="score">综合得分</option>
+          </select>
+        </div>
+        <div id="growthChart" class="growth-chart"></div>
+        <p class="growth-note" id="growthNote"></p>
+      </section>
+    </div>
+  </main>
+
+  <!-- ============ 视图：学习资料 ============ -->
+  <main id="view-learn" class="view">
+    <div class="learn-wrap">
+      <div class="learn-head">
+        <div class="learn-search">
+          <span class="learn-search-ic">🔍</span>
+          <input id="learnSearch" type="text" placeholder="搜索当前栏目词条…（如：共情 / 咨询设置 / 认知歪曲 / 罗杰斯）" />
+        </div>
+        <nav id="learnCats" class="learn-cats" aria-label="学习资料分类">
+          <button class="learn-cat active" data-cat="skills">🛠️ 微技巧 <b class="cat-count" data-count="skills">0</b></button>
+          <button class="learn-cat" data-cat="foundations">📖 基础与伦理 <b class="cat-count" data-count="foundations">0</b></button>
+          <button class="learn-cat" data-cat="theories">🎓 流派速览 <b class="cat-count" data-count="theories">0</b></button>
+          <button class="learn-cat" data-cat="book">📚 全书知识库 <b class="cat-count" data-count="book">0</b></button>
+          <button class="learn-cat" data-cat="course">🎓 课程教材 <b class="cat-count" data-count="course">0</b></button>
+        </nav>
+      </div>
+
+      <div id="learnEmpty" class="learn-empty" hidden>🔍 没有匹配「<span id="learnEmptyKey"></span>」的词条，换个关键词试试</div>
+
+      <div class="learn-body">
+        <section class="learn-panel" data-panel="skills">
+          <h2 class="learn-panel-title">🛠️ 微技巧词条</h2>
+          <div id="skillsGlossary" class="glossary glossary-grid"></div>
+        </section>
+        <section class="learn-panel" data-panel="foundations" hidden>
+          <h2 class="learn-panel-title">📖 基础与伦理</h2>
+          <div id="foundationsGlossary" class="glossary glossary-grid"></div>
+        </section>
+        <section class="learn-panel" data-panel="theories" hidden>
+          <h2 class="learn-panel-title">🎓 流派速览（第 4~14 章）</h2>
+          <div id="theoriesGlossary" class="glossary glossary-grid"></div>
+        </section>
+        <section class="learn-panel" data-panel="book" hidden>
+          <h2 class="learn-panel-title">📚 全书蒸馏知识库（详细版）</h2>
+          <div id="bookKnowledgeGlossary" class="glossary glossary-grid"></div>
+        </section>
+        <section class="learn-panel" data-panel="course" hidden>
+          <h2 class="learn-panel-title">🎓 课程教材知识库（心理咨询技术与实务）</h2>
+          <div id="courseKnowledgeGlossary" class="glossary glossary-grid"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============ 视图：全流程咨询 ============ -->
+  <main id="view-workflow" class="view">
+    <div class="wf-layout">
+      <section class="panel wf-map-panel">
+        <h2>🛤️ 咨询全流程 · 关卡地图</h2>
+        <div id="wfStageMap" class="wf-stages"></div>
+        <div id="wfClientCard" class="wf-client-card"></div>
+      </section>
+      <div class="wf-main">
+        <section class="panel wf-knowledge">
+          <div class="wf-stage-head">
+            <h2 id="wfStageTitle"></h2>
+            <button id="wfResetBtn" class="btn ghost">↺ 重置流程</button>
+          </div>
+          <div id="wfStageGoal" class="wf-goal"></div>
+          <button id="wfToggleKnowledge" class="btn ghost">📚 查看本关知识背景</button>
+          <div id="wfKnowledge" class="wf-knowledge-body" hidden></div>
+        </section>
+        <section class="panel wf-dialog">
+          <div class="wf-client-bubble">
+            <div id="wfClientName" class="wf-client-name"></div>
+            <div id="wfClientText" class="client-text"></div>
+          </div>
+          <div id="wfTranscript" class="transcript"></div>
+          <div class="input-panel">
+            <textarea id="wfResponseInput" rows="3" placeholder="……"></textarea>
+            <div class="input-bar">
+              <span class="hint" id="wfInputHint">Ctrl + Enter 发送</span>
+              <button id="wfSubmitBtn" class="btn primary">提交本关回应 ➤</button>
+            </div>
+          </div>
+        </section>
+        <section class="panel wf-result">
+          <h2>本关评估</h2>
+          <div id="wfResult" class="wf-result-body"></div>
+          <button id="wfNextStageBtn" class="btn primary block" hidden>进入下一关 →</button>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============ 视图：蒸馏问答 ============ -->
+  <main id="view-qa" class="view">
+    <div class="qa-layout">
+      <section class="panel qa-search">
+        <h2>🔎 蒸馏问答</h2>
+        <p class="qa-intro">基于已蒸馏的 Corey《心理咨询与治疗的理论及实践》第 10 版知识库。输入任何问题，离线即返回命中的蒸馏词条；启用大模型后，还能获得章节目录级的深度讲解。</p>
+        <div class="qa-inputbar">
+          <input id="qaInput" type="text" placeholder="例如：认知歪曲有哪些？系统脱敏怎么做？什么是共情？……" />
+          <button id="qaSearchBtn" class="btn primary">🔎 查询</button>
+          <button id="qaLlmBtn" class="btn ghost" hidden>🤖 深度讲解（大模型）</button>
+        </div>
+        <div id="qaChips" class="qa-chips"></div>
+      </section>
+      <section class="panel qa-result">
+        <div id="qaResult" class="qa-result-body"></div>
+      </section>
+      <section class="panel qa-browse">
+        <div class="qa-browse-head">
+          <h2>📚 全部蒸馏词条（<span id="qaCount">0</span>）</h2>
+          <button id="qaToggleBrowse" class="btn ghost">收起全部</button>
+        </div>
+        <div id="qaBrowse" class="glossary"></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ============ 视图：谈心 ============ -->
+  <main id="view-talk" class="view">
+    <div class="tk-layout">
+      <aside class="panel tk-side">
+        <div class="tk-notice">💡 AI 咨询陪伴 · 教育训练用途，不构成临床诊断或治疗。如遇危机请拨打 <b>12356</b>（全国心理援助热线）或 110/120。</div>
+        <h2>🪜 咨询阶段</h2>
+        <div id="tkStageMap" class="tk-stages"></div>
+        <section class="panel-block">
+          <h2>📝 本次议题</h2>
+          <div id="tkIssue" class="tk-issue"></div>
+        </section>
+        <div class="tk-side-actions">
+          <button id="tkFindBtn" class="btn primary block">🔍 联网找更适合我的方法</button>
+          <button id="tkRestartBtn" class="btn ghost block">💗 重新开始谈心</button>
+          <button id="tkClearBtn" class="btn ghost block">🗑 清空对话</button>
+        </div>
+      </aside>
+
+      <div class="tk-main">
+        <section class="panel tk-chat-panel">
+          <div class="tk-counselor">
+            <div class="tk-avatar">
+              <svg id="tkAvatar" viewBox="0 0 240 260" xmlns="http://www.w3.org/2000/svg" aria-label="咨询师画像">
+                <g id="tkBodyGroup">
+                  <path id="tkBody" d="M48 260 C46 226 70 206 120 206 C170 206 194 226 192 260 Z" fill="#5b9b98"/>
+                  <path id="tkCollar" d="M102 208 L120 232 L138 208 C130 203 110 203 102 208 Z" fill="#eef3ef"/>
+                  <path id="tkHeart" d="M120 241 c-3.2 -5.2 -9.5 -4.4 -9.5 1.2 c0 3.2 4.2 5.4 9.5 8.8 c5.3 -3.4 9.5 -5.6 9.5 -8.8 c0 -5.6 -6.3 -6.4 -9.5 -1.2 Z" fill="#e58f8f"/>
+                </g>
+                <circle id="tkNeck" cx="120" cy="198" r="16" fill="#f7ddc9"/>
+                <g id="tkHeadGroup">
+                  <ellipse id="tkHead" cx="120" cy="104" rx="62" ry="72" fill="#f7ddc9"/>
+                  <path id="tkHair" d="M58 104 C54 44 88 26 120 26 C152 26 186 44 182 104 C182 112 168 92 120 92 C72 92 58 112 58 104 Z" fill="#8a6f5c"/>
+                  <path id="tkAhoge" d="M120 27 C118 19 124 14 130 17" stroke="#8a6f5c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+                  <path id="tkEarL" d="M58 112 C46 112 42 124 50 130 C56 134 60 128 60 120 Z" fill="#f7ddc9"/>
+                  <path id="tkEarR" d="M182 112 C194 112 198 124 190 130 C184 134 180 128 180 120 Z" fill="#f7ddc9"/>
+                </g>
+                <path id="tkBrowL" d="M86 100 Q100 93 114 100" stroke="#7a6353" stroke-width="5" stroke-linecap="round" fill="none"/>
+                <path id="tkBrowR" d="M126 100 Q140 93 154 100" stroke="#7a6353" stroke-width="5" stroke-linecap="round" fill="none"/>
+                <g id="tkEyeL" class="tk-eye"><ellipse cx="100" cy="114" rx="11" ry="13" fill="#fff"/><circle cx="101" cy="116" r="5.5" fill="#6b5a4a"/><circle cx="101" cy="116" r="2.6" fill="#2e2620"/><circle cx="99" cy="113.5" r="1.7" fill="#fff"/></g>
+                <g id="tkEyeR" class="tk-eye"><ellipse cx="140" cy="114" rx="11" ry="13" fill="#fff"/><circle cx="139" cy="116" r="5.5" fill="#6b5a4a"/><circle cx="139" cy="116" r="2.6" fill="#2e2620"/><circle cx="137" cy="113.5" r="1.7" fill="#fff"/></g>
+                <g id="tkGlasses">
+                  <circle cx="100" cy="114" r="15" fill="rgba(255,255,255,0.05)" stroke="#4a5f5d" stroke-width="2"/>
+                  <circle cx="140" cy="114" r="15" fill="rgba(255,255,255,0.05)" stroke="#4a5f5d" stroke-width="2"/>
+                  <path d="M115 114 Q120 109 125 114" stroke="#4a5f5d" stroke-width="2" fill="none"/>
+                </g>
+                <path id="tkNose" d="M117 121 Q120 126 123 121" stroke="#e8b08a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                <ellipse id="tkBlushL" cx="90" cy="133" rx="11" ry="6" fill="#f09a8a" opacity="0.14"/>
+                <ellipse id="tkBlushR" cx="150" cy="133" rx="11" ry="6" fill="#f09a8a" opacity="0.14"/>
+                <path id="tkMouth" d="M108 148 Q120 157 132 148" stroke="#b06a5a" stroke-width="4" stroke-linecap="round" fill="none"/>
+              </svg>
+            </div>
+            <div class="tk-counselor-info">
+              <div class="tk-counselor-name">💗 咨询师</div>
+              <div class="tk-counselor-sub">用心听你说 · 陪你慢慢梳理</div>
+              <div id="tkEmotionTag" class="tk-emotion-tag">认真倾听</div>
+            </div>
+          </div>
+          <div id="tkStageBanner" class="tk-stage-banner"></div>
+          <div id="tkTranscript" class="transcript tk-transcript"></div>
+          <div id="tkGate" class="tk-gate" hidden>
+            <p>🤖 谈心需要启用大模型。请在「设置」里配置 API Key 并启用后再开始。</p>
+            <button id="tkOpenSettings" class="btn primary">⚙️ 打开设置</button>
+          </div>
+          <div class="input-panel tk-input-panel">
+            <textarea id="tkInput" rows="2" placeholder="把你的心里话告诉我……（Ctrl + Enter 发送）"></textarea>
+            <div class="input-bar">
+              <span class="hint">Ctrl + Enter 发送</span>
+              <button id="tkSendBtn" class="btn primary">发送 ➤</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside class="panel tk-methods">
+        <h2>🧰 适合你的方法</h2>
+        <div id="tkMethods" class="tk-methods-body"></div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- ============ 视图：诊断训练 ============ -->
+  <main id="view-diagnosis" class="view">
+    <div class="dx-layout">
+      <aside class="panel dx-side">
+        <div class="dx-seg">
+          <button class="dx-seg-btn active" data-dxarea="quiz">🧭 诊断判断</button>
+          <button class="dx-seg-btn" data-dxarea="map">🗺️ 初步判断地图</button>
+          <button class="dx-seg-btn" data-dxarea="ref">📖 诊断标准</button>
+        </div>
+
+        <div id="dxQuizSide">
+          <section class="panel-block">
+            <h2>📂 障碍类别</h2>
+            <div id="dxCats" class="dx-cats"></div>
+          </section>
+          <section class="panel-block">
+            <h2>🗂️ 案例列表</h2>
+            <div id="dxCaseList" class="case-list dx-case-list"></div>
+          </section>
+        </div>
+
+        <div id="dxMapSide" hidden>
+          <section class="panel-block">
+            <h2>🗂️ 选择带地图的案例</h2>
+            <select id="dxMapSelect" class="dx-select"></select>
+            <button id="dxMapGenBtn" class="btn ghost block">⚡ 生成一个带地图的案例</button>
+            <p class="dx-hint">地图 = ①问题清单 ②问题机制 ③根源 ④当前诱因 ⑤资源</p>
+          </section>
+        </div>
+
+        <div id="dxRefSide" hidden>
+          <section class="panel-block">
+            <h2>🔎 搜索</h2>
+            <input id="rxSearch" type="text" class="dx-select" placeholder="输入编码 / 病名（中英）…" />
+          </section>
+          <section class="panel-block rx-panel-block">
+            <h2>📚 诊断标准目录</h2>
+            <div id="rxList" class="rx-list"></div>
+          </section>
+        </div>
+      </aside>
+
+      <div class="dx-main">
+        <section id="dxQuizMain" class="panel dx-quiz-panel">
+          <div class="dx-quiz-head">
+            <span id="dxCaseMeta" class="dx-meta"></span>
+            <div class="dx-quiz-actions">
+              <button id="dxRandomBtn" class="btn ghost">🎲 随机一题</button>
+              <button id="dxGenBtn" class="btn ghost">⚡ 生成新案例</button>
+              <button id="dxGenLlmBtn" class="btn ghost" hidden>🤖 深度生成</button>
+            </div>
+          </div>
+          <h2 id="dxCaseTitle" class="dx-title"></h2>
+          <div id="dxVignette" class="dx-vignette"></div>
+          <div id="dxQuestion" class="dx-question"></div>
+          <div id="dxOptions" class="dx-options"></div>
+          <div id="dxAnswer" class="dx-answer" hidden></div>
+          <div id="dxLlmBar" class="dx-llm-bar" hidden>
+            <button id="dxLlmBtn" class="btn ghost">🤖 大模型深度解析（逐项差异 + 举例）</button>
+          </div>
+          <div id="dxLlmResult" class="dx-answer dx-llm-result" hidden></div>
+          <div class="dx-quiz-foot">
+            <span id="dxScore" class="dx-score"></span>
+            <button id="dxNextBtn" class="btn primary" hidden>下一题 →</button>
+          </div>
+        </section>
+
+        <section id="dxMapMain" class="panel dx-map-panel" hidden>
+          <div class="dx-map-head"><h2>🗺️ 初步判断地图</h2></div>
+          <div id="dxMapBody" class="dx-map-body"></div>
+        </section>
+
+        <section id="dxRefMain" class="panel dx-ref-panel" hidden>
+          <div class="dx-ref-head">
+            <h2>📖 诊断标准</h2>
+            <span id="rxCount" class="dx-meta"></span>
+          </div>
+          <div id="rxDetail" class="rx-detail"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============ 设置弹窗 ============ -->
+  <div id="settingsModal" class="modal" hidden>
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2>⚙️ 设置</h2>
+        <button id="closeSettings" class="icon-btn">✕</button>
+      </div>
+      <div class="modal-body">
+        <section class="set-group">
+          <h3>🤖 大模型（可选，用于深度点评 / 自由续聊）</h3>
+          <label class="field">
+            <span>服务商</span>
+            <select id="setProvider">
+              <option value="anthropic">Anthropic（Claude）</option>
+              <option value="openai">OpenAI 兼容（DeepSeek / 月之暗面 / 通义 / GLM …）</option>
+            </select>
+          </label>
+          <label class="field" id="baseUrlField" hidden>
+            <span>Base URL</span>
+            <input id="setBaseUrl" type="text" placeholder="https://api.deepseek.com/v1" />
+          </label>
+          <label class="field">
+            <span>模型</span>
+            <input id="setModel" type="text" placeholder="claude-opus-5 / deepseek-chat / gpt-4o-mini" />
+          </label>
+          <label class="field">
+            <span>API Key</span>
+            <input id="setApiKey" type="password" placeholder="sk-…" />
+          </label>
+          <label class="field check">
+            <input id="setLlmEnabled" type="checkbox" />
+            <span>启用大模型增强（自由文本深度评分）</span>
+          </label>
+          <p class="set-note">API Key 仅保存在本机 localStorage，不会上传到任何服务器。</p>
+          <button id="testLlmBtn" class="btn ghost">🔌 测试连接</button>
+          <span id="testResult" class="test-result"></span>
+        </section>
+
+        <section class="set-group">
+          <h3>🎨 外观</h3>
+          <label class="field check">
+            <input id="setDark" type="checkbox" />
+            <span>暗色模式</span>
+          </label>
+        </section>
+
+        <section class="set-group danger">
+          <h3>🗑️ 数据</h3>
+          <button id="resetBtn" class="btn danger">清空全部进度</button>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="cases.js"></script>
+  <script src="extra-turns-1.js"></script>
+  <script src="extra-turns-2.js"></script>
+  <script src="alt-answers.js"></script>
+  <script src="ai-cases.js"></script>
+  <script src="omnibus.js"></script>
+  <script src="scoring.js"></script>
+  <script src="explain.js"></script>
+  <script src="avatar.js"></script>
+  <script src="llm.js"></script>
+  <script src="workflow.js"></script>
+  <script src="book-knowledge.js"></script>
+  <script src="course-knowledge.js"></script>
+  <script src="talk-avatar.js"></script>
+  <script src="talk.js"></script>
+  <script src="course-cases-1.js"></script>
+  <script src="course-cases-2.js"></script>
+  <script src="diagnosis-cases.js"></script>
+  <script src="diagnosis.js"></script>
+  <script src="ref-icd11.js"></script>
+  <script src="ref-ccmd3.js"></script>
+  <script src="diagnosis-ref.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,440 @@
+{
+ "system": "icd11",
+ "disorders": [
+  {
+   "code": "6C40",
+   "name": "Disorders due to use of alcohol",
+   "nameZh": "酒精所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of alcohol use. Alcohol – more specifically termed ethyl alcohol or ethanol – is an intoxicating compound produced by fermentation of sugars, usually in agricultural products such as fruits, cereals and vegetables, with or without subsequent distillation. There are a wide variety of alcoholic drinks, with alcohol concentrations typically ranging from 1.5% to 60%. Alcohol is predominantly a central nervous system depressant. Unlike most other substances, elimination of alcohol from the body occurs at a constant rate, such that its clearance follows a linear rather than a logarithmic course. In addition to ability to produce alcohol intoxication, alcohol has dependence-producing properties, resulting in alcohol dependence in some people and alcohol withdrawal when alcohol use is reduced or discontinued. Alcohol is implicated in a wide range of harms affecting most organs and systems of the body (e.g. cirrhosis of the liver, gastrointestinal cancers, pancreatitis). Harm to others resulting from behaviour during alcohol intoxication is well recognized, and is included in the definitions of categories of harmful use of alcohol (i.e. episode of harmful use of alcohol and harmful pattern of use of alcohol). Several alcohol-induced mental disorders (e.g. alcohol-induced psychotic disorder) and alcohol-related forms of neurocognitive impairment (e.g. dementia due to use of alcohol) are also recognized. Alcohol use is one of the most common causes of premature death and illness among men, and is still a substantial – though less common – cause of premature death and illness among women. The use of alcohol is implicated in millions of deaths per year (e.g. due to motor vehicle accidents). Although alcohol is used worldwide, and its use is legal among adults in most countries, there are substantial differences in cultural and religious acceptability of its use. Consequently, prevalence 6C40 Disorders due to substance use or addictive behaviours | Substance classes 443 Disorders due to substance use or addictive behaviours of alcohol use disorders shows substantial regional variation; the highest prevalence is observed in eastern Europe and the lowest in Africa. Low prevalence of alcohol use in some countries is related to lower rates of disorders due to use of alcohol. Polymorphisms of the genes for the alcohol-metabolizing enzymes alcohol dehydrogenase (ADH1B) and aldehyde dehydrogenase, which affect the response to alcohol, are seen more frequently among East Asians than other groups. Individuals with certain polymorphisms may develop facial flushing and palpitations when consuming alcohol, which may be so severe as to preclude alcohol consumption and thus lower the risk of alcohol use disorder. Disorders due to use of cannabis",
+     "zh": "酒精（乙醇）由糖类发酵产生，常见饮品浓度约1.5%–60%，主要抑制中枢神经系统。具致中毒、依赖与戒断特性，与肝硬化、胃肠癌、胰腺炎等广泛躯体损害相关，中毒行为可危害他人，是全球男性早死与疾病最常见原因之一。东亚人群因乙醛脱氢酶（ALDH2）等基因多态性易出现脸红心悸，从而降低使用风险。"
+    }
+   ]
+  },
+  {
+   "code": "6C41",
+   "name": "Disorders due to use of cannabis",
+   "nameZh": "大麻所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of cannabis use. Cannabis is the collective term for a range of psychoactive preparations of the cannabis plant, Cannabis sativa, and related species and hybrids. Cannabis contains cannabinoids, a class of diverse chemical compounds that act on endogenous cannabinoid receptors that modulate neurotransmitter release in the brain. The principal psychoactive cannabinoid is δ-9-tetrahydrocannabinol (THC). Cannabis is typically smoked in the form of the flowering heads or leaves of the marijuana plant; tobacco is often mixed with cannabis when smoked. Cannabis oils are also prepared from these same sources. These preparations vary considerably in their THC potency. Cannabis has predominantly central nervous system depressant effects; it produces a characteristic euphoria that may be part of the presenting features of cannabis intoxication, which may also include impairment in cognitive and psychomotor functioning. Cannabis has dependence-producing properties resulting in cannabis dependence in some people and cannabis withdrawal when use is reduced or discontinued. Cannabis is associated with a range of cannabis-induced mental disorders. Other medical conditions are also associated with cannabis use, including some respiratory and cardiovascular diseases. Cannabis is the most commonly used illicit drug worldwide, but its legal status varies considerably; in certain countries it is legally available for medicinal or personal use. Acceptance of cannabis use for recreational or medical purposes also varies widely by culture. Variations in legal status and cultural acceptability are related to differential consequences for detection of use (e.g. arrest, school suspension or employment suspension), affecting the probability that the person may seek treatment. Disorders due to use of synthetic cannabinoids",
+     "zh": "大麻是大麻属植物的精神活性制品，主要精神活性成分为四氢大麻酚（THC），作用于内源性大麻素受体，主要抑制中枢神经系统，产生特征性欣快感，具依赖与戒断特性。是全球使用最广泛的非法药物，法律地位与文化接受度差异很大。"
+    }
+   ]
+  },
+  {
+   "code": "6C42",
+   "name": "Disorders due to use of synthetic cannabinoids",
+   "nameZh": "合成大麻素所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of synthetic cannabinoid use. Synthetic cannabinoids are synthesized diverse chemical compounds that are potent agonists for endogenous cannabinoid receptors. There are several hundred such compounds. The synthetic compound is typically sprayed onto a vehicle such as cannabis or tea leaves and then smoked. The effect of these compounds is distinctly different from smoking naturally cultivated cannabis, in that the euphoric effects are typically accompanied or dominated by psychotic-like symptoms (e.g. paranoia, hallucinations and disorganized 6C41 6C42 Disorders due to substance use or addictive behaviours | Substance classes Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 444 behaviour). Synthetic cannabinoid intoxication may therefore present more frequently with psychotic symptoms in addition to the more typical effects of cannabis. Synthetic cannabinoids also have dependence-producing properties, and synthetic cannabinoid dependence and synthetic cannabinoid withdrawal are recognized. Synthetic cannabinoid-induced mental disorders also occur; in particular, synthetic cannabinoid-induced psychotic disorder is recognized. Much less is known about the effects of these drugs on other body organs and systems than is the case for naturally cultivated cannabis. Disorders due to use of opioids",
+     "zh": "合成大麻素是作用于大麻素受体的合成化学物质，效力常远强于天然大麻，与更严重的中毒、依赖及躯体和精神损害相关。"
+    }
+   ]
+  },
+  {
+   "code": "6C43",
+   "name": "Disorders due to use of opioids",
+   "nameZh": "阿片类所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of opioid use. “Opioids” is a generic term that encompasses the constituents or derivatives of the opium poppy, Papaver somniferum, as well as a range of synthetic and semisynthetic compounds – some related to morphine and others chemically distinct, but all having their primary actions on the µ opioid receptor. Examples of opioids include morphine, diacetylmorphine (heroin), fentanyl, pethidine, oxycodone, hydromorphone, methadone, buprenorphine, codeine and d-propoxyphene. The opioids all have analgesic properties of different potencies, and are primarily central nervous system depressants. They suppress respiration and other vital functions, and are a common cause of overdose and related deaths. Certain opioids are used or administered parenterally, including heroin – a common and potent opioid that is primarily used nonmedically. Therapeutic opioids are prescribed for a range of indications worldwide, and are essential for pain management in cancer care and palliative care, although they are also used for nontherapeutic reasons. In some countries, morbidity and mortality related to therapeutic opioids are greater than those related to heroin. All opioids may result in opioid intoxication, opioid dependence and opioid withdrawal. A range of opioid-induced disorders occur, some of which occur following opioid withdrawal. Because certain opioids are commonly injected illicitly, their use is a potent mechanism of transmission of bloodborne viral infections such as hepatitis B, hepatitis C and HIV/AIDS, as well as bacterial infections. Not including alcohol and tobacco, opioids are the most common cause of death from psychoactive drug use worldwide. Disorders due to use of sedatives, hypnotics or anxiolytics",
+     "zh": "阿片类药物（如海洛因、吗啡、处方阿片）作用于阿片受体，产生镇痛与欣快，具有高度依赖潜力与严重戒断反应，过量可致死。"
+    }
+   ]
+  },
+  {
+   "code": "6C44",
+   "name": "Disorders due to use of sedatives, hypnotics or anxiolytics",
+   "nameZh": "镇静、催眠或抗焦虑药所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of use of these substances. Sedatives, hypnotics and anxiolytics are typically prescribed for the short-term treatment of anxiety or insomnia, and are also employed to provide sedation for medical procedures. They include benzodiazepines and the non-benzodiazepine positive allosteric modulators of GABA receptors (i.e. “Z-drugs”), as well as many other compounds. Sedatives, hypnotics and anxiolytics include barbiturates, which are available much less commonly now than in previous decades. Sedatives, hypnotics and anxiolytics have dependence-inducing properties that are related to the dose and duration of their use. They may cause intoxication, dependence and withdrawal. Several other mental disorders induced by sedatives, hypnotics or anxiolytics are recognized. 6C43 6C44 Disorders due to substance use or addictive behaviours | Substance classes 445 Disorders due to substance use or addictive behaviours Disorders due to use of cocaine",
+     "zh": "包括苯二氮䓬类、巴比妥类等，抑制中枢神经系统，产生镇静、抗焦虑与睡眠作用，具依赖与戒断（可致惊厥）特性。"
+    }
+   ]
+  },
+  {
+   "code": "6C45",
+   "name": "Disorders due to use of cocaine",
+   "nameZh": "可卡因所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of cocaine use. Cocaine is a compound found in the leaves of the coca plant, Erythroxylum coca, which is indigenous to countries in northern regions of South America. Cocaine has a limited place in medical treatment as an anaesthetic and vasoconstrictive agent. It is commonly used illicitly, and is widely available across the world, where it is found in two main forms: cocaine hydrochloride and cocaine freebase (also known as “crack”). Cocaine is a central nervous system stimulant, and cocaine intoxication typically includes a state of euphoria and hyperactivity. Cocaine has potent dependence-producing properties, and cocaine dependence is a common cause of morbidity and of clinical presentations. Cocaine withdrawal has a characteristic course that includes lethargy and depressed mood. A range of cocaine-induced mental disorders is described. Cocaine is also associated with several health sequelae, including myocardial infarction arising from coronary artery spasm and stroke arising from cerebral artery spasm. Disorders due to use of stimulants, including amfetamines, methamfetamine and methcathinone",
+     "zh": "可卡因是强效中枢兴奋剂，产生欣快、警觉与自信，具有高成瘾性，可致心血管并发症及经鼻吸所致的鼻中隔穿孔。"
+    }
+   ]
+  },
+  {
+   "code": "6C46",
+   "name": "Disorders due to use of stimulants, including amfetamines, methamfetamine and methcathinone",
+   "nameZh": "兴奋剂（含苯丙胺、甲基苯丙胺、甲卡西酮）所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of use of these substances. There is a wide array of naturally occurring and synthetically produced psychostimulants other than cocaine. The most numerous of this group are the amfetamine-type substances, including methamfetamine. Prescribed stimulants including dexamfetamine are indicated for a limited number of conditions, such as for attention deficit hyperactivity disorder. Methcathinone, known in many countries as ephedrone, is a synthetic potent stimulant that is a structural analogue of methamfetamine and is related to cathinone. All these drugs have primarily psychostimulant properties and are also vasoconstrictors to a varying degree. They induce euphoria and hyperactivity, as may be seen in stimulant intoxication. They have potent dependence-producing properties, which may lead to the diagnosis of stimulant dependence and stimulant withdrawal following the cessation of use. Several stimulant-induced mental disorders are described. Stimulants are a widespread cause of hospitalization and clinic attendance, and significant causes of morbidity and mortality, often due to violence related to stimulant-induced psychotic disorder. Disorders due to use of synthetic cathinones",
+     "zh": "苯丙胺、甲基苯丙胺、甲卡西酮等中枢兴奋剂，产生欣快、警觉、精力增加，具依赖潜力，长期使用可致精神病性症状与躯体损害。"
+    }
+   ]
+  },
+  {
+   "code": "6C47",
+   "name": "Disorders due to use of synthetic cathinones",
+   "nameZh": "合成卡西酮所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of synthetic cathinone use. Synthetic cathinones (also known as “bath salts”) are synthetic compounds with stimulant properties related to cathinone found in the khat plant, Catha edulis. The use of synthetic cathinones is common in young populations in many countries. They may produce a range of disorders including synthetic cathinone intoxication, synthetic cathinone dependence and synthetic cathinone withdrawal. Several synthetic cathinone-induced mental disorders are recognized. 6C45 6C47 6C46 Disorders due to substance use or addictive behaviours | Substance classes Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 446 Disorders due to use of caffeine",
+     "zh": "合成卡西酮（俗称“浴盐”）是苯丙胺类新型精神活性物质，产生兴奋与拟交感作用，具依赖性与毒性。"
+    }
+   ]
+  },
+  {
+   "code": "6C48",
+   "name": "Disorders due to use of caffeine",
+   "nameZh": "咖啡因所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of caffeine use. Caffeine is a mild psychostimulant and diuretic that is found in the beans of the coffee plant (Coffea species), and is a constituent of coffee, cola drinks, chocolate, a range of proprietary “energy drinks” and weight-loss aids. It is the most commonly used psychoactive substance worldwide, and several clinical conditions related to its use are described, although severe disorders are comparatively rare considering its ubiquity. Caffeine intoxication related to consumption of relatively high doses (i.e. >1 g per day) is described. Caffeine withdrawal is common upon cessation of use among individuals who have used caffeine for a prolonged period or in large amounts. Caffeine-induced anxiety disorder has been described, often following intoxication or heavy use. Disorders due to use of hallucinogens",
+     "zh": "咖啡因是最广泛使用的精神活性物质，存在于咖啡、茶、能量饮料等，产生警觉与抗疲劳作用，过量可致焦虑、失眠、心动过速。"
+    }
+   ]
+  },
+  {
+   "code": "6C49",
+   "name": "Disorders due to use of hallucinogens",
+   "nameZh": "致幻剂所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of hallucinogen use. Several thousand compounds have hallucinogenic properties, many of which are found in plants (e.g. mescaline) and fungi (e.g. psilocybin) or are chemically synthesized (e.g. LSD). These compounds have primarily hallucinogenic properties, but some may also be stimulants. Much of the morbidity associated with these compounds arises from the acute effects related to hallucinogen intoxication. Hallucinogen dependence is rare, and hallucinogen withdrawal is not described. Among the mental disorders related to hallucinogen use, hallucinogen-induced psychotic disorder is the most frequently seen, although worldwide it is still fairly uncommon. Disorders due to use of nicotine",
+     "zh": "致幻剂（如LSD、裸盖菇素、麦司卡林）改变知觉、思维与情绪，产生幻觉与神秘体验，通常无显著躯体依赖，但可致急性中毒与持续性知觉障碍。"
+    }
+   ]
+  },
+  {
+   "code": "6C4A",
+   "name": "Disorders due to use of nicotine",
+   "nameZh": "尼古丁所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of nicotine use. Nicotine is the active dependence-producing constituent of the tobacco plant, Nicotiana tabacum. Nicotine is used overwhelmingly through smoking cigarettes. Increasingly, it is also used in electronic cigarettes that vaporize nicotine dissolved in a carrier solvent for inhalation (i.e. “vaping”). Pipe smoking, chewing tobacco and inhaling snuff are minor forms of use. Nicotine is a highly potent addictive compound, and is the third most common psychoactive substance used worldwide after caffeine and alcohol. Nicotine dependence and nicotine withdrawal are well described, and nicotine-induced mental disorders are recognized. Tobacco is by far the most important cause worldwide of morbidity and mortality of all the psychoactive substances; this is due in part to its addictive constituent nicotine but more so to other constituents such as carcinogens and other hazardous and harmful compounds that are inhaled during smoking. Tobacco smoking is the leading cause of ill health and premature death among men, and is among the top 10 causes in women. 6C48 6C49 6C4A Disorders due to substance use or addictive behaviours | Substance classes 447 Disorders due to substance use or addictive behaviours Disorders due to use of volatile inhalants",
+     "zh": "尼古丁是烟草中的主要成瘾物质，产生警觉与放松，具高度依赖潜力，烟草使用是全球可预防死亡的最主要原因之一。"
+    }
+   ]
+  },
+  {
+   "code": "6C4B",
+   "name": "Disorders due to use of volatile inhalants",
+   "nameZh": "挥发性吸入剂所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of volatile inhalant use. Volatile inhalants include a range of compounds that are in the gaseous or vapour phase at ambient temperatures, such as various organic solvents, glues, gasoline (petrol), nitrites and gases such as nitrous oxide, trichloroethane, butane, toluene, fluorocarbons, ether and halothane. They have a range of pharmacological properties but are predominantly central nervous system depressants, with many also having vasoactive effects. They tend to be used by younger people, and may be used when access to alternative psychoactive substances is difficult or impossible. Volatile inhalant intoxication is well recognized. Volatile inhalants have dependence- producing properties, and volatile inhalant dependence and volatile inhalant withdrawal are recognized, although comparatively uncommon worldwide. Volatile inhalant-induced mental disorders are described. Volatile inhalants may also cause neurocognitive impairment, including dementia.",
+     "zh": "挥发性吸入剂（胶水、汽油、喷剂）通过吸入产生快速、短暂的中枢抑制与欣快，可致严重神经与器官损害，甚至猝死。"
+    }
+   ]
+  },
+  {
+   "code": "6C4C",
+   "name": "Disorders due to use of MDMA or related drugs, including MDA",
+   "nameZh": "MDMA及相关药物（含MDA）所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of MDMA or related drug use. MDMA is a common drug of abuse in many countries especially among young people. It is predominantly available in tablet form known as “ecstasy”. Pharmacologically, MDMA has stimulant and empathogenic properties, and these encourage its use among young people for social and other interactions. Considering its wide prevalence in many countries and among many subgroups of young people, MDMA and related drug dependence and MDMA and related drug withdrawal are comparatively uncommon. Substance-induced mental disorders may arise from its use, and health sequelae are recognized, including liver disease and hyponatraemia, which may be fatal. Several analogues of MDMA exist, including MDA.",
+     "zh": "MDMA（摇头丸）及相关药物（含MDA）产生欣快、亲密感与精力增加，兼具兴奋与致幻特性，可致高热、脱水、血清素综合征及神经毒性。"
+    }
+   ]
+  },
+  {
+   "code": "6C4D",
+   "name": "Disorders due to use of dissociative drugs, including ketamine and phencyclidine (PCP)",
+   "nameZh": "分离性药物（含氯胺酮、苯环利定PCP）所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of dissociative drug use. Dissociative drugs include ketamine and PCP and their (comparatively rare) chemical analogues. Ketamine is an intravenous anaesthetic widely used in low- and middle-income countries, particularly in Africa, and in emergency situations. Ketamine is also undergoing evaluation for treatment of some mental disorders (e.g. treatment-resistant depressive disorders). It is also a widespread drug of nonmedical use in many countries, and may be taken by the oral or nasal routes or injected. It produces a sense of euphoria but, depending on the dose, emergent hallucinations and dissociation are recognized as unpleasant side-effects. Phencyclidine has a more restricted worldwide distribution, and also has euphoric and dissociative effects. Its use may result in bizarre behaviour uncharacteristic for the individual, including self-harm. Dissociative drug dependence is described, but a withdrawal syndrome is not recognized by most authorities. Several dissociative drug-induced mental disorders are recognized. 6C4B 6C4C 6C4D Disorders due to substance use or addictive behaviours | Substance classes Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural or Neurodevelopmental Disorders 448 Disorders due to use of other specified psychoactive substances, including medications",
+     "zh": "氯胺酮与苯环利定（PCP）等分离性药物产生分离（脱离身体）与麻醉作用，可致幻觉、意识障碍与膀胱损害。"
+    }
+   ]
+  },
+  {
+   "code": "6C4E",
+   "name": "Disorders due to use of other specified psychoactive substances, including medications",
+   "nameZh": "其他特定精神活性物质（含药物）所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of psychoactive substances that are not included among the major substance classes specifically identified above. Examples include khat, anabolic steroids, antidepressants, medications with anticholinergic properties (e.g. benztropine) and some antihistamines.",
+     "zh": "其他未单列的精神活性物质或药物（如某些处方药）所致障碍。"
+    }
+   ]
+  },
+  {
+   "code": "6C4F",
+   "name": "Disorders due to use of multiple specified psychoactive substances, including medications",
+   "nameZh": "多种特定精神活性物质（含药物）所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "Disorders due to use of multiple specified psychoactive substances, including medications The categories in this grouping are provided for coding purposes. However, in most clinical situations it is recommended that multiple categories from disorders due to substance use should be assigned if these can be discerned, rather than using categories from this grouping. Doing so will provide more useful information for both clinical and coding purposes.",
+     "zh": "同时或先后使用多种特定精神活性物质，其共同作用所致障碍。"
+    }
+   ]
+  },
+  {
+   "code": "6C4G",
+   "name": "Disorders due to use of unknown or unspecified psychoactive substances",
+   "nameZh": "未知或未特定精神活性物质所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "Disorders due to use of unknown or unspecified psychoactive substances These categories apply in clinical situations in which it is clear that the disturbance is due to substance use but the specific substance or class of substances is initially unknown. As more information becomes available (e.g. laboratory results, report from a collateral informant) the diagnosis should be changed to indicate the relevant substance or substance class. Disorders due to use of non-psychoactive substances",
+     "zh": "明确障碍由物质使用所致，但具体物质或类别初期未知；随信息增多（如实验室结果、知情人报告）应改为相应物质类别。"
+    }
+   ]
+  },
+  {
+   "code": "6C4H",
+   "name": "Disorders due to use of non-psychoactive substances",
+   "nameZh": "非精神活性物质所致障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "characterized by the pattern and consequences of nonmedical use of non-psychoactive substances. Non-psychoactive substances include laxatives, growth hormone, erythropoietin and non-steroidal anti-inflammatory drugs. They may also include proprietary or over-the-counter medicines and folk remedies. Nonmedical use of these substances may be associated with harm to the individual due to the direct or secondary toxic effects of the non-psychoactive substance on body organs and systems, or a harmful route of administration (e.g. infections due to intravenous self-administration). They are not associated with intoxication or with a dependence or withdrawal syndrome, and are not recognized causes of substance-induced mental disorders.",
+     "zh": "非医疗使用非精神活性物质（如泻药、生长激素、促红细胞生成素、非甾体抗炎药），可因直接或继发毒性作用或有害给药途径造成损害，但不引起中毒、依赖或戒断综合征。"
+    }
+   ]
+  },
+  {
+   "code": "6C4Z",
+   "name": "Disorders due to substance use, unspecified",
+   "nameZh": "物质使用所致障碍，未特定",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "Disorders due to substance use, unspecified 6C4H 6C4E 6C4F 6C4G Disorders due to substance use or addictive behaviours | Substance classes 6C4Z 449 Disorders due to substance use or addictive behaviours",
+     "zh": "符合物质使用所致障碍的一般特征，但信息不足以确定具体物质类别或使用模式。"
+    }
+   ]
+  },
+  {
+   "code": "SUD1",
+   "name": "Episode of harmful psychoactive substance use",
+   "nameZh": "有害精神活性物质使用发作",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t An episode of use of a psychoactive substance that has caused clinically significant damage to a person’s physical health (e.g. bloodborne infection from intravenous self- administration) or mental health (e.g. substance-induced mood disorder), or has resulted in behaviour leading to harm to the health of others, is required for diagnosis. •\t Harm to the health of the individual occurs due to one or more of the following: behaviour related to intoxication (see Table 6.15, p. 475); direct or secondary toxic effects on body organs and systems; or a harmful route of administration. •\t Harm to the health of others includes any form of physical harm, including trauma, or mental disorder that is directly attributable to behaviour due to substance intoxication on the part of the person to whom the diagnosis of episode of harmful psychoactive substance use applies. Diagnostic requirements for disorders due to substance use | Episode of harmful psychoactive substance use",
+     "zh": "一次性使用精神活性物质，造成个体躯体健康（如静脉自注所致血源性感染）或心理健康（如物质所致心境障碍）的临床显著损害，或导致危害他人健康的行为。健康损害源于：中毒相关行为、对身体器官系统的直接或继发毒性作用，或有害的给药途径。对他人健康的危害包括任何形式的躯体伤害（含创伤）或精神障碍，直接归因于个体物质中毒相关行为。损害不能用其他躯体疾病或其他精神障碍（含物质戒断）更好地解释。"
+    }
+   ]
+  },
+  {
+   "code": "SUD2",
+   "name": "Harmful pattern of psychoactive substance use",
+   "nameZh": "有害精神活性物质使用模式",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t A pattern of continuous, recurrent or sporadic use of a psychoactive substance that has caused clinically significant damage to a person’s physical health (e.g. bloodborne infection from intravenous self-administration) or mental health (e.g. substance-induced mood disorder), or has resulted in behaviour leading to harm to the health of others is required for diagnosis. •\t Harm to the health of the individual occurs due to one or more of the following: behaviour related to intoxication (see Table 6.15, p. 475); direct or secondary toxic effects on body organs and systems; or a harmful route of administration. •\t Harm to the health of others includes any form of physical harm, including trauma, or mental disorder that is directly attributable to behaviour related to substance intoxication on the part of the person to whom the diagnosis of harmful pattern of psychoactive substance use applies. •\t The pattern of use of the relevant substance is evident over a period of at least 12 months if substance use is episodic, or at least 1 month if use is continuous. •\t The harm to health is not better accounted for by another medical condition or another mental disorder, including another disorder due to substance use (e.g. substance withdrawal). Note: harm to the health of the person to whom the diagnosis applies includes injuries caused by behaviour related to intoxication (e.g. impulsive aggressive behaviour, psychomotor impairment leading to injury; see Table 6.15, p. 475); acute health problems resulting from substance use (e.g. overdose, acute gastritis, the effects of hypoxia or prolonged hyperactivity or inactivity), and exacerbation or decompensation of pre-existing chronic health problems (e.g. hypertension, liver disease, or peptic ulceration). Harm may also result from a harmful route of administration (e.g. injecting drug use causing bloodborne virus infections, cocaine use causing a perforated nasal septum). The relevant diagnostic codes from other ICD-11 chapters – including Chapter 22 on injury, poisoning or certain other consequences of external causes – should be used to describe the specific health consequences of the harmful substance use. Harm to the health of others includes any form of physical harm, including trauma (e.g. impaired driving causing a motor vehicle accident, assaultive behaviour leading to bodily harm to another person) or mental disorder (e.g. post-traumatic stress disorder arising from an assault by the intoxicated individual) that is directly attributable to behaviour due to substance intoxication on the part of the person to whom the diagnosis of harmful pattern of psychoactive substance use applies. Diagnostic requirements for disorders due to substance use | Harmful pattern of psychoactive substance use",
+     "zh": "连续、反复或间断使用精神活性物质的模式，造成个体躯体健康或心理健康的临床显著损害，或导致危害他人健康的行为（机制同“有害使用发作”）。通常认为使用至少持续12个月、呈至少间断性发作。若同时符合物质依赖标准，则不再诊断本模式。"
+    }
+   ]
+  },
+  {
+   "code": "SUD3",
+   "name": "Substance dependence",
+   "nameZh": "物质依赖",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t A pattern of recurrent episodic or continuous use of a psychoactive substance is required for diagnosis, with evidence of impaired regulation of use of that substance that is manifested in two or more of the following: •\t impaired control over substance use (i.e. onset, frequency, intensity, duration, termination, context); •\t increasing precedence of substance use over other aspects of life, including maintenance of health, and daily activities and responsibilities, such that substance use continues or escalates despite the occurrence of harm or negative consequences (e.g. repeated relationship disruption, occupational or scholastic consequences, negative impact on health); •\t physiological features indicative of neuroadaptation to the substance, including tolerance to the effects of the substance or a need to use increasing amounts of the substance to achieve the same effect; withdrawal symptoms following cessation or reduction in use of that substance; or repeated use of the substance or Diagnostic requirements for disorders due to substance use | Substance dependence",
+     "zh": "反复发作或连续使用精神活性物质的模式，存在使用调节受损的证据，表现为以下2项或以上：对物质使用控制受损（起病、频率、强度、持续时间、终止、情境）；物质使用日益优先于其他生活方面（包括维持健康、日常活动与责任），尽管出现危害或负面后果仍继续或升级；出现耐受、戒断等生理特征（适用于相应物质）。"
+    }
+   ]
+  },
+  {
+   "code": "SUD4",
+   "name": "Substance intoxication",
+   "nameZh": "物质中毒",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t The presentation is characterized by transient and clinically significant disturbances in consciousness, cognition, perception, affect, behaviour or coordination that develop during or shortly after the consumption or administration of a substance. •\t The symptoms are compatible with the known pharmacological effects of the substance, and their intensity is closely related to the amount of the substance consumed. •\t The symptoms of intoxication are time-limited, and abate as the substance is cleared from the body. •\t Symptoms are not better accounted for by another medical condition (see Box 6.1) or another mental disorder, including another disorder due to substance use (e.g. substance withdrawal). Note: Table 6.15 (p. 475) lists clinically important presenting features of substance intoxication attributable to the pharmacological effects of each substance class. Diagnostic requirements for disorders due to substance use | Substance intoxication",
+     "zh": "在摄入或使用物质期间或之后不久出现短暂且临床显著的意识、认知、知觉、情感、行为或协调障碍。症状与物质的已知药理作用相符，强度与用量密切相关。中毒症状有时间限制，随物质从体内清除而消退。症状不能用其他躯体疾病或其他精神障碍（含另一种物质的中毒）更好地解释。"
+    }
+   ]
+  },
+  {
+   "code": "SUD5",
+   "name": "Substance withdrawal",
+   "nameZh": "物质戒断",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t The presentation is characterized by a clinically significant cluster of symptoms, behaviours and/or physiological features that occurs upon cessation or reduction in the use of a substance in individuals who have developed dependence on that substance, or have used the substance for a prolonged period or in large amounts. Note: substance withdrawal can occur when prescribed psychoactive medications (e.g. opioids, anxiolytics, stimulants) have been used in standard therapeutic doses. •\t The specific features of substance withdrawal depend on the pharmacological properties of the specified substance (see Table 6.16, p. 484), and are consistent with those recognized as occurring upon cessation or reduction of the particular substance or other members of the same pharmacological group of substances. The symptoms also vary in degree of severity and duration, depending on the substance and the amount and pattern of prior use. •\t The symptoms are not better accounted for by another medical condition or another mental disorder. Note: substance withdrawal is only applicable for some substances or substance classes (see the list above and Table 6.13, p. 450). Table 6.16 (p. 484) lists the most common symptoms, behaviours and physiological features for each substance class. Diagnostic requirements for disorders due to substance use | Substance withdrawal",
+     "zh": "在已形成依赖、或长期/大量使用物质的个体中，停止或减少使用时出现临床显著的症状、行为和/或生理特征群。特定表现取决于物质的药理性质。症状导致显著痛苦或功能损害，并非其他躯体疾病或其他精神障碍所致。"
+    }
+   ]
+  },
+  {
+   "code": "SUD7",
+   "name": "Substance-induced psychotic disorder",
+   "nameZh": "物质所致精神病性障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t The presentation is characterized by psychotic symptoms (e.g. delusions, hallucinations or disorganized thinking or behaviour) that develop during or soon after intoxication with or withdrawal from a specified substance, or use or discontinuation of a psychoactive medication. •\t The intensity or duration of the psychotic symptoms is substantially in excess of psychotic- like disturbances of perception, cognition or behaviour that are characteristic of intoxication or withdrawal due to the specified substance. •\t The specified substance, as well as the amount and duration of its use, is known to be capable of producing psychotic symptoms (see the list above and Table 6.14, p. 454). •\t The symptoms are not better accounted for by another mental disorder such as schizophrenia or a mood disorder with psychotic symptoms. Evidence supporting a diagnosis of another mental disorder would include psychotic symptoms preceding the onset of the substance use, the symptoms persisting for a substantial period of time after cessation of the substance, or medication use or withdrawal (e.g. 1 month or more depending on the specific substance), or other evidence of a pre-existing mental disorder with psychotic symptoms (e.g. a history of prior episodes not associated with substance use). •\t The symptoms are not a manifestation of another medical condition. •\t The symptoms result in significant distress or significant impairment in personal, family, social, educational, occupational or other important areas of functioning. Specifiers for substance-induced psychotic symptoms An additional specifier can be added to denote the presence of hallucinations, delusions, or mixed psychotic symptoms for alcohol-induced psychotic disorder (6C40.6), cocaine-induced psychotic disorder (6C45.6), stimulant-induced psychotic disorder, including amfetamines, methamfetamine or methcathinone (6C46.6), and synthetic cathinone-induced psychotic disorder (6C47.6). The x below corresponds to the fourth-character code indicating the substance class (0 for alcohol, 1 for cannabis and so on) (see the list above and Table 6.14, p. 454). Substance-induced psychotic disorder with hallucinations •\t All diagnostic requirements for substance-induced psychotic disorder are met. •\t The presentation is characterized by hallucinations that are judged to be the direct consequence of the use of or withdrawal from a specified substance or medication. •\t Neither delusions nor other psychotic symptoms are present. •\t The symptoms do not occur exclusively during hypnogogic or hypnopompic states. Substance-induced mental disorders | Psychotic disorders",
+     "zh": "在特定物质中毒或戒断期间或之后不久出现幻觉、妄想等精神病性症状。症状强度或持续时间明显超出相应物质中毒或戒断的预期。症状不能用其他原发性精神病性障碍（如精神分裂症）或谵妄更好地解释。"
+    }
+   ]
+  },
+  {
+   "code": "SUD8",
+   "name": "Substance-induced mood disorder",
+   "nameZh": "物质所致心境障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t The presentation is characterized by mood symptoms (e.g. depressed or elevated mood, decreased engagement in pleasurable activities, increased or decreased energy levels) that",
+     "zh": "在特定物质中毒或戒断期间或之后不久出现心境症状（如抑郁或心境高涨、愉悦活动参与减少、精力增减）。症状强度或持续时间明显超出相应物质中毒或戒断的预期。症状不能用其他心境障碍更好地解释。"
+    }
+   ]
+  },
+  {
+   "code": "SUD9",
+   "name": "Substance-induced anxiety disorder",
+   "nameZh": "物质所致焦虑障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t The presentation is characterized by anxiety symptoms (e.g. apprehension or worry, fear, physiological symptoms of excessive autonomic arousal, panic attacks, avoidance behaviour) that develop during or soon after intoxication with or withdrawal from a specified substance, or use or discontinuation of a psychoactive medication. •\t The intensity or duration of the anxiety symptoms is substantially in excess of anxiety symptoms that are characteristic of intoxication or withdrawal due to the specified substance. •\t The specified substance, as well as the amount and duration of its use, is known to be capable of producing anxiety symptoms (see the list above and Table 6.14, p. 454). •\t The symptoms are not better accounted for by another mental disorder such as an anxiety or fear-related disorder, a depressive disorder with prominent anxiety symptoms, or post- traumatic stress disorder. Evidence supporting a diagnosis of another mental disorder Substance-induced anxiety disorders",
+     "zh": "在特定物质中毒或戒断期间或之后不久出现焦虑症状（担忧、恐惧、自主神经过度唤起、惊恐发作、回避行为）。症状强度或持续时间明显超出预期。症状不能用其他焦虑障碍更好地解释。"
+    }
+   ]
+  },
+  {
+   "code": "SUD10",
+   "name": "Substance-induced obsessive-compulsive or related disorder",
+   "nameZh": "物质所致强迫及相关障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t The presentation is characterized by symptoms that share primary clinical features with obsessive-compulsive and related disorders (e.g. obsessions, intrusive thoughts and preoccupations, compulsions, recurrent and habitual actions directed at the integument). •\t The obsessive-compulsive or related symptoms develop during or soon after intoxication with or withdrawal from a specified substance, or use or discontinuation of a psychoactive medication. •\t The intensity or duration of the repetitive preoccupations and behaviours is substantially in excess of analogous disturbances that are characteristic of intoxication or withdrawal due to the specified substance. •\t The specified substance, as well as the amount and duration of its use, is known to be capable of producing obsessive-compulsive or related symptoms (see the list above and Table 6.14, p. 454). •\t The symptoms and behaviours are not better accounted for by another mental disorder – in particular an obsessive-compulsive or related disorder. Evidence supporting a diagnosis of another mental disorder would include obsessive-compulsive or related symptoms preceding the onset of the substance use, the symptoms persisting for a substantial period of time after cessation of the substance or medication use or withdrawal (e.g. 1 month or Substance-induced obsessive-compulsive and related disorders",
+     "zh": "在特定物质中毒或戒断期间或之后不久出现与强迫及相关障碍具有共同核心临床特征的症状（强迫观念、侵入性思维与先占观念、强迫行为等）。症状强度或持续时间明显超出预期。症状不能用原发性强迫及相关障碍更好地解释。"
+    }
+   ]
+  },
+  {
+   "code": "SUD11",
+   "name": "Substance-induced impulse control disorder",
+   "nameZh": "物质所致冲动控制障碍",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "•\t The presentation is characterized by persistently repeated behaviours in which there is recurrent failure to resist an impulse, drive or urge to perform an act that is rewarding to the person – at least in the short term – despite longer-term harm either to the individual or to others (e.g. fire setting or stealing without apparent motive, repetitive sexual behaviour, aggressive outbursts), or by behaviours similar to those seen in disorders due to addictive behaviours (i.e. excessive gambling or gaming). •\t The disturbance in impulse control develops during or soon after intoxication with or withdrawal from a specified substance, or use or discontinuation of a psychoactive medication. •\t The intensity or duration of the disturbance in impulse control is substantially in excess of impulse control disturbances that are characteristic of intoxication or withdrawal due to the specified substance. •\t The specified substance, as well as the amount and duration of its use, is known to be capable of producing disturbances in impulse control (see the list above and Table 6.14,  p. 454). •\t The symptoms and behaviours are not better accounted for by another mental disorder such as an impulse control disorder or a disorder due to addictive behaviours. Evidence supporting a diagnosis of another mental disorder would include an impulse control disturbance preceding the onset of the substance use, the disturbance persisting for a substantial period of time after cessation of the substance or medication use or withdrawal (e.g. 1 month or more depending on the specific substance), or other evidence of a pre- Substance-induced impulse control disorders",
+     "zh": "在特定物质中毒或戒断期间或之后不久出现反复不能抵抗冲动、欲望或驱力，去执行短期有回报但长期有害于自身或他人的行为（无明显动机的纵火或偷窃、重复性性行为、攻击爆发）。症状不能用其他冲动控制障碍更好地解释。"
+    }
+   ]
+  }
+ ]
+}

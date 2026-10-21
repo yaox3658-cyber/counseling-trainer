@@ -1,0 +1,51 @@
+{
+  "name": "counseling-trainer",
+  "version": "1.0.0",
+  "description": "心理咨询能力训练应用 —— 基于 Corey《心理咨询与治疗的理论及实践》第10版（中文版）",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --publish never",
+    "dist:dir": "electron-builder --dir --publish never"
+  },
+  "author": "yaox3658-cyber",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^32.0.0",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.yaox3658cyber.counseling-trainer",
+    "productName": "心理咨询训练",
+    "copyright": "Copyright © 2026 yaox3658-cyber",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer/**/*"
+    ],
+    "asar": true,
+    "win": {
+      "icon": "build/icon.png",
+      "target": [
+        { "target": "nsis", "arch": ["x64"] },
+        { "target": "portable", "arch": ["x64"] }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "心理咨询训练",
+      "artifactName": "心理咨询训练-安装包-${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "心理咨询训练-便携版-${version}.${ext}"
+    }
+  }
+}

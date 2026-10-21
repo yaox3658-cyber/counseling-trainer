@@ -1,0 +1,815 @@
+{
+ "system": "icd11",
+ "disorders": [
+  {
+   "code": "MB20",
+   "name": "Symptoms, signs or clinical findings involving consciousness",
+   "nameZh": "意识方面的症状、体征或临床所见",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "涉及意识水平或清晰度改变的症状或体征，如意识模糊、嗜睡、昏迷等。"
+    }
+   ]
+  },
+  {
+   "code": "MB21",
+   "name": "Symptoms, signs or clinical findings involving cognition",
+   "nameZh": "认知方面的症状、体征或临床所见",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "涉及记忆、注意、执行功能、语言、计算等认知功能的症状或体征。"
+    }
+   ]
+  },
+  {
+   "code": "MB22",
+   "name": "Symptoms or signs involving motivation or energy",
+   "nameZh": "动机或精力方面的症状或体征",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "涉及动机、主动性、精力与疲劳的症状或体征，如缺乏动力、精力下降。"
+    }
+   ]
+  },
+  {
+   "code": "MB23",
+   "name": "Symptoms or signs involving appearance or behaviour",
+   "nameZh": "外貌或行为方面的症状或体征",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "涉及外貌、行为与精神运动活动的症状或体征，如激越、迟滞、怪异行为。"
+    }
+   ]
+  },
+  {
+   "code": "MB24",
+   "name": "Symptoms or signs involving mood or affect",
+   "nameZh": "心境或情感方面的症状或体征",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "涉及心境（抑郁、高涨）与情感（焦虑、易激惹、情感平淡）的症状或体征。"
+    }
+   ]
+  },
+  {
+   "code": "MB25",
+   "name": "Symptoms or signs involving form of thought",
+   "nameZh": "思维形式方面的症状或体征",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "涉及思维形式（速度、连贯性、逻辑性）的症状或体征，如思维奔逸、思维散漫。"
+    }
+   ]
+  },
+  {
+   "code": "MB26",
+   "name": "Symptoms or signs involving content of thought",
+   "nameZh": "思维内容方面的症状或体征",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "涉及思维内容的症状或体征，如妄想、超价观念、先占观念。"
+    }
+   ]
+  },
+  {
+   "code": "MB27",
+   "name": "Symptoms or signs involving perceptual disturbance",
+   "nameZh": "知觉障碍方面的症状或体征",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "涉及知觉障碍的症状或体征，如幻觉、错觉、人格解体、现实解体。"
+    }
+   ]
+  },
+  {
+   "code": "MB28",
+   "name": "Symptoms or signs related to personality features",
+   "nameZh": "人格特征相关的症状或体征",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "涉及人格特征、自我与他人的感受方式等方面的症状或体征。"
+    }
+   ]
+  },
+  {
+   "code": "MB29",
+   "name": "Symptoms or signs involving eating and related behaviour",
+   "nameZh": "进食及相关行为方面的症状或体征",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "涉及进食与相关行为的症状或体征，如食欲改变、进食行为异常。"
+    }
+   ]
+  },
+  {
+   "code": "MB2A",
+   "name": "Symptoms or signs involving elimination",
+   "nameZh": "排泄方面的症状或体征",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "涉及排泄（大小便控制）的症状或体征。"
+    }
+   ]
+  },
+  {
+   "code": "MB2Y",
+   "name": "Other specified mental or behavioural symptoms, signs or clinical findings",
+   "nameZh": "其他特定精神或行为症状、体征或临床所见",
+   "block": "Mental or behavioural symptoms, signs or clinical findings",
+   "blockZh": "精神或行为症状、体征或临床所见",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "其他未单列的精神或行为症状、体征或临床所见。"
+    }
+   ]
+  },
+  {
+   "code": "QE51.0",
+   "name": "Relationship distress with spouse or partner",
+   "nameZh": "与配偶或伴侣的关系困扰",
+   "block": "Relationship problems and maltreatment",
+   "blockZh": "关系问题与虐待",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "Clinically significant distress or impairment in functioning related to conflict, dissatisfaction or discord in the relationship with a spouse or intimate partner.",
+     "zh": "与配偶或亲密伴侣的关系冲突、不满或不和相关的临床显著痛苦或功能损害。"
+    }
+   ]
+  },
+  {
+   "code": "QE52.0",
+   "name": "Caregiver-child relationship problem",
+   "nameZh": "照护者-儿童关系问题",
+   "block": "Relationship problems and maltreatment",
+   "blockZh": "关系问题与虐待",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "Problems in the relationship between a child and a caregiver (e.g. parent) that are associated with clinically significant distress or impairment.",
+     "zh": "儿童与照护者（如父母）之间关系的问题，伴有临床显著痛苦或损害。"
+    }
+   ]
+  },
+  {
+   "code": "PJ20",
+   "name": "Physical maltreatment, spouse or partner",
+   "nameZh": "配偶或伴侣躯体虐待",
+   "block": "Relationship problems and maltreatment",
+   "blockZh": "关系问题与虐待",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "Physical maltreatment of a spouse or partner (or a personal history of such violence).",
+     "zh": "对配偶或伴侣的躯体虐待（或此类暴力的个人史）。"
+    }
+   ]
+  },
+  {
+   "code": "PJ21",
+   "name": "Sexual maltreatment, spouse or partner",
+   "nameZh": "配偶或伴侣性虐待",
+   "block": "Relationship problems and maltreatment",
+   "blockZh": "关系问题与虐待",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "Sexual maltreatment of a spouse or partner (or a personal history of such violence).",
+     "zh": "对配偶或伴侣的性虐待（或此类暴力的个人史）。"
+    }
+   ]
+  },
+  {
+   "code": "PJ22",
+   "name": "Psychological maltreatment, spouse or partner",
+   "nameZh": "配偶或伴侣心理虐待",
+   "block": "Relationship problems and maltreatment",
+   "blockZh": "关系问题与虐待",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "Psychological maltreatment of a spouse or partner (or a personal history of such violence).",
+     "zh": "对配偶或伴侣的心理虐待（或此类暴力的个人史）。"
+    }
+   ]
+  },
+  {
+   "code": "PF1B",
+   "name": "Assault by neglect",
+   "nameZh": "忽视所致伤害",
+   "block": "Relationship problems and maltreatment",
+   "blockZh": "关系问题与虐待",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "Assault by neglect (e.g. neglect of a dependent person causing harm).",
+     "zh": "因忽视（如对受抚养者的忽视造成伤害）所致的伤害。"
+    }
+   ]
+  },
+  {
+   "code": "QE84",
+   "name": "Acute stress reaction",
+   "nameZh": "急性应激反应",
+   "block": "Disorders specifically associated with stress",
+   "blockZh": "应激相关障碍",
+   "sections": [
+    {
+     "head": "Essential (required) features",
+     "headZh": "必须（核心）特征",
+     "en": "A transient condition that develops in response to an exceptional stressful event (e.g. natural disaster, accident, assault). Symptoms (e.g. intrusive experiences, dissociative symptoms, anxiety, autonomic arousal) begin within hours to days of the event and typically subside within days to weeks.",
+     "zh": "对异常应激事件（如自然灾害、事故、袭击）产生的短暂反应。症状（闯入性体验、分离症状、焦虑、自主神经唤起）在事件后数小时至数天内出现，通常在数天至数周内消退。"
+    }
+   ]
+  },
+  {
+   "code": "6A0Y",
+   "name": "Other specified neurodevelopmental disorder",
+   "nameZh": "其他特定神经发育障碍",
+   "block": "Neurodevelopmental disorders",
+   "blockZh": "神经发育障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6A0Z",
+   "name": "Neurodevelopmental disorder, unspecified",
+   "nameZh": "神经发育障碍，未特定",
+   "block": "Neurodevelopmental disorders",
+   "blockZh": "神经发育障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6A2Z",
+   "name": "Schizophrenia or other primary psychotic disorder, unspecified",
+   "nameZh": "精神分裂症或其他原发性精神病性障碍，未特定",
+   "block": "Schizophrenia and other primary psychotic disorders",
+   "blockZh": "精神分裂症及其他原发性精神病性障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6A4Z",
+   "name": "Catatonia, unspecified",
+   "nameZh": "紧张症，未特定",
+   "block": "Catatonia",
+   "blockZh": "紧张症",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6A6Z",
+   "name": "Bipolar or related disorder, unspecified",
+   "nameZh": "双相及相关障碍，未特定",
+   "block": "Mood disorders",
+   "blockZh": "心境障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6A7Z",
+   "name": "Depressive disorder, unspecified",
+   "nameZh": "抑郁障碍，未特定",
+   "block": "Mood disorders",
+   "blockZh": "心境障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6A8Y",
+   "name": "Other specified mood disorder",
+   "nameZh": "其他特定心境障碍",
+   "block": "Mood disorders",
+   "blockZh": "心境障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6A8Z",
+   "name": "Mood disorder, unspecified",
+   "nameZh": "心境障碍，未特定",
+   "block": "Mood disorders",
+   "blockZh": "心境障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6B0Z",
+   "name": "Anxiety or fear-related disorder, unspecified",
+   "nameZh": "焦虑或恐惧相关障碍，未特定",
+   "block": "Anxiety and fear-related disorders",
+   "blockZh": "焦虑及恐惧相关障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6B2Z",
+   "name": "Obsessive-compulsive or related disorder, unspecified",
+   "nameZh": "强迫及相关障碍，未特定",
+   "block": "Obsessive-compulsive and related disorders",
+   "blockZh": "强迫及相关障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6B4Z",
+   "name": "Disorder specifically associated with stress, unspecified",
+   "nameZh": "应激相关障碍，未特定",
+   "block": "Disorders specifically associated with stress",
+   "blockZh": "应激相关障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6B6Z",
+   "name": "Dissociative disorder, unspecified",
+   "nameZh": "分离障碍，未特定",
+   "block": "Dissociative disorders",
+   "blockZh": "分离障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6B8Z",
+   "name": "Feeding or eating disorder, unspecified",
+   "nameZh": "进食障碍，未特定",
+   "block": "Feeding and eating disorders",
+   "blockZh": "进食及饮食障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6C0Z",
+   "name": "Elimination disorder, unspecified",
+   "nameZh": "排泄障碍，未特定",
+   "block": "Elimination disorders",
+   "blockZh": "排泄障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6C2Z",
+   "name": "Disorder of bodily distress or bodily experience, unspecified",
+   "nameZh": "躯体痛苦或躯体体验障碍，未特定",
+   "block": "Disorders of bodily distress or bodily experience",
+   "blockZh": "躯体痛苦或躯体体验障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6C5Y",
+   "name": "Other specified disorder due to addictive behaviours",
+   "nameZh": "其他特定成瘾行为所致障碍",
+   "block": "Disorders due to addictive behaviours",
+   "blockZh": "成瘾行为所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6C5Z",
+   "name": "Disorder due to addictive behaviours, unspecified",
+   "nameZh": "成瘾行为所致障碍，未特定",
+   "block": "Disorders due to addictive behaviours",
+   "blockZh": "成瘾行为所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6C7Y",
+   "name": "Other specified impulse control disorder",
+   "nameZh": "其他特定冲动控制障碍",
+   "block": "Impulse control disorders",
+   "blockZh": "冲动控制障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6C7Z",
+   "name": "Impulse control disorder, unspecified",
+   "nameZh": "冲动控制障碍，未特定",
+   "block": "Impulse control disorders",
+   "blockZh": "冲动控制障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6C9Y",
+   "name": "Other specified disruptive behaviour or dissocial disorder",
+   "nameZh": "其他特定破坏性行为或违纪障碍",
+   "block": "Disruptive behaviour and dissocial disorders",
+   "blockZh": "破坏性行为与违纪障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6C9Z",
+   "name": "Disruptive behaviour or dissocial disorder, unspecified",
+   "nameZh": "破坏性行为或违纪障碍，未特定",
+   "block": "Disruptive behaviour and dissocial disorders",
+   "blockZh": "破坏性行为与违纪障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6D36",
+   "name": "Paraphilic disorder involving solitary behaviour or consenting individuals",
+   "nameZh": "涉及独自行为或同意个体的性偏好障碍",
+   "block": "Paraphilic disorders",
+   "blockZh": "性偏好障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6D3Z",
+   "name": "Paraphilic disorder, unspecified",
+   "nameZh": "性偏好障碍，未特定",
+   "block": "Paraphilic disorders",
+   "blockZh": "性偏好障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6D5Z",
+   "name": "Factitious disorder, unspecified",
+   "nameZh": "做作性障碍，未特定",
+   "block": "Factitious disorders",
+   "blockZh": "做作性障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6D72.Z",
+   "name": "Amnestic disorder, unknown or unspecified cause",
+   "nameZh": "遗忘障碍，未知或未特定病因",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6D8Z",
+   "name": "Dementia, unknown or unspecified cause",
+   "nameZh": "痴呆，未知或未特定病因",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6E0Y",
+   "name": "Other specified neurocognitive disorder",
+   "nameZh": "其他特定神经认知障碍",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6E0Z",
+   "name": "Neurocognitive disorder, unspecified",
+   "nameZh": "神经认知障碍，未特定",
+   "block": "Neurocognitive disorders",
+   "blockZh": "神经认知障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6E6Y",
+   "name": "Other specified secondary mental or behavioural syndrome",
+   "nameZh": "其他特定继发性精神或行为综合征",
+   "block": "Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere",
+   "blockZh": "他处分类疾病相关的继发性精神或行为综合征",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "6E6Z",
+   "name": "Secondary mental or behavioural syndrome, unspecified",
+   "nameZh": "继发性精神或行为综合征，未特定",
+   "block": "Secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere",
+   "blockZh": "他处分类疾病相关的继发性精神或行为综合征",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "QE10",
+   "name": "Hazardous alcohol use",
+   "nameZh": "危险饮酒",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "QE11",
+   "name": "Hazardous drug use",
+   "nameZh": "危险用药",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "QE12",
+   "name": "Hazardous nicotine use",
+   "nameZh": "危险尼古丁使用",
+   "block": "Disorders due to substance use",
+   "blockZh": "物质使用所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "QE21",
+   "name": "Hazardous gambling or betting",
+   "nameZh": "危险赌博或投注",
+   "block": "Disorders due to addictive behaviours",
+   "blockZh": "成瘾行为所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  },
+  {
+   "code": "QE22",
+   "name": "Hazardous gaming",
+   "nameZh": "危险游戏",
+   "block": "Disorders due to addictive behaviours",
+   "blockZh": "成瘾行为所致障碍",
+   "sections": [
+    {
+     "head": "说明",
+     "headZh": "说明",
+     "en": "",
+     "zh": "符合该障碍分组的一般特征，但属于其他未单列的特定类型，或信息不足以作出更具体诊断。"
+    }
+   ]
+  }
+ ]
+}

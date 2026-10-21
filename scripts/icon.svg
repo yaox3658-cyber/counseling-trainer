@@ -1,0 +1,83 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7fc4be"/>
+      <stop offset="1" stop-color="#3a7a75"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.28" cy="0.18" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbe6d2"/>
+      <stop offset="1" stop-color="#f5cfae"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a3836a"/>
+      <stop offset="1" stop-color="#7a5e47"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <rect width="256" height="256" rx="56" fill="url(#glow)"/>
+  <rect width="256" height="256" rx="56" fill="url(#vig)"/>
+
+  <!-- 开衫 / 肩膀 -->
+  <path d="M28 256 C28 212 72 202 128 202 C184 202 228 212 228 256 Z" fill="#f6efe2"/>
+  <ellipse cx="128" cy="212" rx="42" ry="12" fill="#e2d5c0" opacity="0.55"/>
+
+  <!-- 脖子 -->
+  <rect x="114" y="192" width="28" height="26" rx="12" fill="#f0c9a8"/>
+
+  <!-- 领口 -->
+  <path d="M102 206 L128 236 L154 206 C138 200 118 200 102 206 Z" fill="#ece1cc"/>
+
+  <!-- 后层头发 -->
+  <ellipse cx="128" cy="110" rx="80" ry="84" fill="url(#hair)"/>
+
+  <!-- 脸 -->
+  <ellipse cx="128" cy="128" rx="68" ry="72" fill="url(#skin)"/>
+  <ellipse cx="128" cy="96" rx="44" ry="20" fill="#ffffff" opacity="0.16"/>
+
+  <!-- 刘海 -->
+  <path d="M58 100 C58 62 90 42 128 42 C166 42 198 62 198 100 Q128 106 58 100 Z" fill="url(#hair)"/>
+
+  <!-- 眉毛（柔和轻扬） -->
+  <path d="M92 117 Q104 111 116 117" stroke="#8a6f5c" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M140 117 Q152 111 164 117" stroke="#8a6f5c" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- 眼睛 -->
+  <ellipse cx="104" cy="132" rx="9" ry="11" fill="#ffffff"/>
+  <ellipse cx="152" cy="132" rx="9" ry="11" fill="#ffffff"/>
+  <circle cx="105" cy="134" r="5" fill="#6b5a4a"/>
+  <circle cx="151" cy="134" r="5" fill="#6b5a4a"/>
+  <circle cx="105" cy="134" r="2.4" fill="#2e2620"/>
+  <circle cx="151" cy="134" r="2.4" fill="#2e2620"/>
+  <circle cx="103" cy="131.5" r="1.7" fill="#ffffff"/>
+  <circle cx="149" cy="131.5" r="1.7" fill="#ffffff"/>
+
+  <!-- 圆框眼镜 -->
+  <g stroke="#5f8380" stroke-width="2.2" fill="rgba(255,255,255,0.10)">
+    <circle cx="104" cy="132" r="13"/>
+    <circle cx="152" cy="132" r="13"/>
+  </g>
+  <path d="M117 132 Q128 128 139 132" stroke="#5f8380" stroke-width="2.2" fill="none"/>
+
+  <!-- 鼻子 -->
+  <path d="M126 146 Q128 150 130 146" stroke="#e3b594" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- 腮红 -->
+  <ellipse cx="90" cy="154" rx="12" ry="6" fill="#f2a494" opacity="0.5"/>
+  <ellipse cx="166" cy="154" rx="12" ry="6" fill="#f2a494" opacity="0.5"/>
+
+  <!-- 上扬微笑（U 型，控制点在下） -->
+  <path d="M112 160 Q128 170 144 160" stroke="#e08a86" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <!-- 胸口爱心 -->
+  <path d="M128 238 c-3.2 -5.2 -9.5 -4.4 -9.5 1.2 c0 3.2 4.2 5.4 9.5 8.8 c5.3 -3.4 9.5 -5.6 9.5 -8.8 c0 -5.6 -6.3 -6.4 -9.5 -1.2 Z" fill="#e58f8f"/>
+</svg>
